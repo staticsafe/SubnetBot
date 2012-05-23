@@ -35,7 +35,12 @@ class GoogleFinanceAPI:
         #TSE = None
 
         with open('NASDAQ.json', 'rb') as f:
-            NASDAQ = json.load(f, encoding='utf-8')
+            print "..."
+            try:
+               # NASDAQ = json.load(f, encoding='utf-8')
+                print "if i reach here it worked"
+            except err_msg:
+              print err_msg
 
         Change = None
         ChangePercent = None
@@ -63,13 +68,16 @@ class GoogleFinanceAPI:
             elif s == 'l':
                 CurrentPrice = obj[obj.index(s)+1]
                 print "CurrentPrice found: " + CurrentPrice
-        if (Exchange == 'NASDAQ'):
-            temp = NASDAQ[StockName]
+        #if (Exchange == 'NASDAQ'):
+           # print StockName
+           # temp = NASDAQ[StockName]
        #elif (Exchange == 'NYSE'):
             #temp = NYSE[StockName]
         else:
             temp = ''
             print 'Unsupported exchange found, should get data for that'
+        if change.beginswith('-'):
+            change = change.append('4')
         temp += '(' + Exchange + ':' + StockName + ')@' + CurrentPrice + ' ' + Change + "(" + ChangePercent + "%) via Google Finance. Current as of " + DateTime
         print temp
         return temp
