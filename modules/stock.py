@@ -30,9 +30,12 @@ class GoogleFinanceAPI:
                 temp = temp.rstrip("'}")
             obj[obj.index(s)] = temp
 
-        NASDAQ = json.load(open('NASDAQ.json', 'rb'))
-        NYSE = json.load(open('NYSE.json', 'rb'))
-        TSE = json.load(open('TSE.json', 'rb'))
+        NASDAQ = None
+        #NYSE = None
+        #TSE = None
+
+        with open('NASDAQ.json', 'rb') as f:
+            NASDAQ = json.load(f, encoding='utf-8')
 
         Change = None
         ChangePercent = None
