@@ -1,0 +1,1992 @@
+Python 2.7.3 (default, Apr 10 2012, 23:31:26) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+Loading Settings...
+Load Successful!
+Registering to server
+:kif.entropynet.net NOTICE Auth :*** Looking up your hostname...
+
+:kif.entropynet.net NOTICE Auth :*** Could not resolve your hostname: Domain name not found; using your IP address (64.235.110.226) instead.
+
+:kif.entropynet.net 451 JOIN :You have not registered
+
+:kif.entropynet.net 451 JOIN :You have not registered
+
+:kif.entropynet.net 451 JOIN :You have not registered
+
+:kif.entropynet.net 451 JOIN :You have not registered
+
+:kif.entropynet.net 451 JOIN :You have not registered
+
+:kif.entropynet.net 451 JOIN :You have not registered
+:kif.entropynet.net NOTICE Auth :Welcome to EntropyNet!
+:kif.entropynet.net 001 SubnetBot :Welcome to the EntropyNet IRC Network SubnetBot!SubnetBot@64.235.110.226
+:kif.entropynet.net 002 SubnetBot :Your host is kif.entropynet.net, running version InspIRCd-2.0
+:kif.entropynet.net 003 SubnetBot :This server was created 17:01:51 Apr  3 2012
+:kif.entropynet.net 004 SubnetBot kif.entropynet.net InspIRCd-2.0 BHIRSWcdhikorswx ABCFIKLMNOQRSTYabcefghijklmnopqrstuvz FILYabefghjkloqv
+:kif.entropynet.net 005 SubnetBot AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=IYbeg,k,FLfjl,ABCKMNOQRSTcimnprstuz CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ABCNOQRSTcmprz FNC INVEX=I KICKLEN=256 MAP MAXBANS=60 :are supported by this server
+:kif.entropynet.net 005 SubnetBot MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=EntropyNet NICKLEN=32 OPERLOG OVERRIDE PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STATUSMSG=~&@%+ TOPICLEN=308 :are supported by this server
+:kif.entropynet.net 005 SubnetBot UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+:kif.entropynet.net 042 SubnetBot 4SZAAAFQB :your unique ID
+:kif.entropynet.net 375 SubnetBot :kif.entropynet.net message of the day
+:kif.entropynet.net 372 SubnetBot :- ### ###                                               ##  ## ### ###          
+:kif.entropynet.net 372 SubnetBot :-  ##  ## ##   ## ###### #####    ####   ###### ##   ## ###  #  ##  ##  ######  
+:kif.entropynet.net 372 SubnetBot :-  ##     ###  ##   ##  ##   ##  ##  ## ##   ## ##   ##  ### #  ##        ##    
+:kif.entropynet.net 372 SubnetBot :-  ## ##  #### ##   ##  ##   ## ##   ## ##  ##  ##   ## # ####  ## ##     ##    
+:kif.entropynet.net 372 SubnetBot :-  ##     ## ####   ##  ## ###  ##   ## ## ##    # #### #  ###  ##        ##    
+:kif.entropynet.net 372 SubnetBot :-  ##  ## ##  ###   ##  ##  ##  ##   ## ####         ## #   ##  ##  ##    ##    
+:kif.entropynet.net 372 SubnetBot :- ### ### ##   ##   ##  ##   ## ##   ## ##          ## ###  ## ### ###    ##    
+:kif.entropynet.net 372 SubnetBot :-         ##   ##   ##  ##   ## ## ###  ##       ####                     ##                               
+:kif.entropynet.net 372 SubnetBot :- -----------------------------------------------------------------------------
+:kif.entropynet.net 372 SubnetBot :-                                                                              
+:kif.entropynet.net 372 SubnetBot :- Server: kif.entropynet.net                                           
+:kif.entropynet.net 372 SubnetBot :- Website : http://entropynet.net
+:kif.entropynet.net 372 SubnetBot :-                                                                              
+:kif.entropynet.net 372 SubnetBot :- Rules:                                                                      
+:kif.entropynet.net 372 SubnetBot :- - Follow channel rules (this will not be handled by opers unless in          
+:kif.entropynet.net 372 SubnetBot :- -- #entropynet or another oper controlled channel (#lounge,    
+:kif.entropynet.net 372 SubnetBot :- --  #caffeine-linux)                                                         
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- - Don't hack us, this will result in near definite PermaBans!; don't flood,
+:kif.entropynet.net 372 SubnetBot :- -- repetitively flooding will result in a temporary ban.                      
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- - Don't argue with the opers about these rules, it makes us sad              
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- - Speak the normal language of the channel, if the general population of the 
+:kif.entropynet.net 372 SubnetBot :- -- channel is speaking English, don't break the flow with a random Russian 
+:kif.entropynet.net 372 SubnetBot :- -- conversation-- if you would like to have a non-English channel please name
+:kif.entropynet.net 372 SubnetBot :- -- it something like #musicnerds-jp
+ (for Japanese as an example).
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Some guidelines, these will be enforced:
+:kif.entropynet.net 372 SubnetBot :- - No spamming and/or advertising.
+:kif.entropynet.net 372 SubnetBot :- - No ASCII art, #ascii is excepted.
+:kif.entropynet.net 372 SubnetBot :- - Don't ask for oper privileges, you'll get killed for your troubles.
+:kif.entropynet.net 372 SubnetBot :- - Avoid talking in caps, unless in #rant
+:kif.entropynet.net 372 SubnetBot :- - No links to shock sites, and no child pornography.
+:kif.entropynet.net 372 SubnetBot :- - Use of the nick/user root is not allowed. 
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- REMEMBER: Decisions made by staff are final.
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Interesting channels:
+:kif.entropynet.net 372 SubnetBot :- - #lounge - General chat channel
+:kif.entropynet.net 372 SubnetBot :- - #EntropyNet - Network channel, for network related business and/or issues
+:kif.entropynet.net 372 SubnetBot :- - #ascii - See rule 2.
+:kif.entropynet.net 372 SubnetBot :- - #anime - talk about anime. Home of Alice the NEET Detective.
+:kif.entropynet.net 372 SubnetBot :- - #gamers - for the gamers
+:kif.entropynet.net 372 SubnetBot :- - #musicnerds - we <3 music
+:kif.entropynet.net 372 SubnetBot :- - #links - if you have a server and want to link with our IRCnet, join this.
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Bots
+:kif.entropynet.net 372 SubnetBot :- - If you would like to run a bot you must msg an operator first,
+:kif.entropynet.net 372 SubnetBot :- - We will either allow or deny your bot to access the network,
+:kif.entropynet.net 372 SubnetBot :- - if you connect your bot anyway you and your bot will be G:Lined
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- NOTE - You can give yourself +w to see noncritical global notices (and set it to your automodes).
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Network Administrators ( opers )
+:kif.entropynet.net 372 SubnetBot :- - foxwolfblood
+:kif.entropynet.net 372 SubnetBot :- - cafejunkie
+:kif.entropynet.net 372 SubnetBot :- - staticsafe
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 376 SubnetBot :End of message of the day.
+:kif.entropynet.net 251 SubnetBot :There are 24 users and 23 invisible on 5 servers
+:kif.entropynet.net 252 SubnetBot 16 :operator(s) online
+:kif.entropynet.net 254 SubnetBot 49 :channels formed
+:kif.entropynet.net 255 SubnetBot :I have 12 clients and 1 servers
+:kif.entropynet.net 265 SubnetBot :Current Local Users: 12  Max: 17
+:kif.entropynet.net 266 SubnetBot :Current Global Users: 47  Max: 60
+:kif.entropynet.net 396 SubnetBot net-vm7.rh5.235.64.IP :is now your displayed host
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP MODE SubnetBot +x
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+
+Logging in...
+Login successful!
+:StatServ!stats@entropynet.net PRIVMSG SubnetBot :VERSION
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP JOIN :#
+:kif.entropynet.net 353 SubnetBot = # :~Dan SubnetBot @ChanServ jordanmkasla2009 
+:kif.entropynet.net 366 SubnetBot # :End of /NAMES list.
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+:kif.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG # :&part #
+:kif.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :You are now identified for SubnetBot.
+:kif.entropynet.net 900 SubnetBot SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP SubnetBot :You are now logged in as SubnetBot
+:kif.entropynet.net MODE SubnetBot -x
+:kif.entropynet.net 396 SubnetBot subnetbot.subnetsoftware :is now your displayed host
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#compsci
+:kif.entropynet.net 332 SubnetBot #compsci :12Welcome to #compsci | Please speak english here | Keep Conversations civil (no unnecessary vulgarity or trolling) | Have a wonderful day :D
+:kif.entropynet.net 333 SubnetBot #compsci jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware 1335885549
+:kif.entropynet.net 353 SubnetBot = #compsci :+Dan +Jacky %TingPing subnet_bot_sama SubnetBot @ChanServ ~jordanmkasla2009 
+:kif.entropynet.net 366 SubnetBot #compsci :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #compsci +o SubnetBot
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#subnetsoftware
+:kif.entropynet.net 353 SubnetBot = #subnetsoftware :subnet_bot_sama SubnetBot @ChanServ ~jordanmkasla2009 
+:kif.entropynet.net 366 SubnetBot #subnetsoftware :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #subnetsoftware +o SubnetBot
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware PART #
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&stock FB NASDAQ
+
+
+>>> ================================ RESTART ================================
+>>> 
+Loading Settings...
+Load Successful!
+Registering to server
+:leela.entropynet.net NOTICE Auth :*** Looking up your hostname...
+
+:leela.entropynet.net NOTICE Auth :*** Could not resolve your hostname: Domain name not found; using your IP address (64.235.110.226) instead.
+
+:leela.entropynet.net 451 JOIN :You have not registered
+
+:leela.entropynet.net 451 JOIN :You have not registered
+
+:leela.entropynet.net 451 JOIN :You have not registered
+
+:leela.entropynet.net 451 JOIN :You have not registered
+
+:leela.entropynet.net 451 JOIN :You have not registered
+
+:leela.entropynet.net 451 JOIN :You have not registered
+:leela.entropynet.net NOTICE Auth :Welcome to EntropyNet!
+:leela.entropynet.net 001 SubnetBot :Welcome to the EntropyNet IRC Network SubnetBot!SubnetBot@64.235.110.226
+:leela.entropynet.net 002 SubnetBot :Your host is leela.entropynet.net, running version InspIRCd-2.0
+:leela.entropynet.net 003 SubnetBot :This server was created 12:06:14 Apr  3 2012
+:leela.entropynet.net 004 SubnetBot leela.entropynet.net InspIRCd-2.0 BHIRSWcdhikorswx ABCFIKLMNOQRSTYabcefghijklmnopqrstuvz FILYabefghjkloqv
+:leela.entropynet.net 005 SubnetBot AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=IYbeg,k,FLfjl,ABCKMNOQRSTcimnprstuz CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ABCNOQRSTcmprz FNC INVEX=I KICKLEN=256 MAP MAXBANS=60 :are supported by this server
+:leela.entropynet.net 005 SubnetBot MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=EntropyNet NICKLEN=32 OPERLOG OVERRIDE PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STATUSMSG=~&@%+ TOPICLEN=308 :are supported by this server
+:leela.entropynet.net 005 SubnetBot UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+:leela.entropynet.net 042 SubnetBot 9Z2AAAMOC :your unique ID
+:leela.entropynet.net 375 SubnetBot :leela.entropynet.net message of the day
+:leela.entropynet.net 372 SubnetBot :- ### ###                                               ##  ## ### ###          
+:leela.entropynet.net 372 SubnetBot :-  ##  ## ##   ## ###### #####    ####   ###### ##   ## ###  #  ##  ##  ######  
+:leela.entropynet.net 372 SubnetBot :-  ##     ###  ##   ##  ##   ##  ##  ## ##   ## ##   ##  ### #  ##        ##    
+:leela.entropynet.net 372 SubnetBot :-  ## ##  #### ##   ##  ##   ## ##   ## ##  ##  ##   ## # ####  ## ##     ##    
+:leela.entropynet.net 372 SubnetBot :-  ##     ## ####   ##  ## ###  ##   ## ## ##    # #### #  ###  ##        ##    
+:leela.entropynet.net 372 SubnetBot :-  ##  ## ##  ###   ##  ##  ##  ##   ## ####         ## #   ##  ##  ##    ##    
+:leela.entropynet.net 372 SubnetBot :- ### ### ##   ##   ##  ##   ## ##   ## ##          ## ###  ## ### ###    ##    
+:leela.entropynet.net 372 SubnetBot :-         ##   ##   ##  ##   ## ## ###  ##       ####                     ##                               
+:leela.entropynet.net 372 SubnetBot :- -----------------------------------------------------------------------------
+:leela.entropynet.net 372 SubnetBot :-                                                                              
+:leela.entropynet.net 372 SubnetBot :- Server: leela.entropynet.net                                           
+:leela.entropynet.net 372 SubnetBot :- Website : http://entropynet.net
+:leela.entropynet.net 372 SubnetBot :-                                                                              
+:leela.entropynet.net 372 SubnetBot :- Rules:                                                                      
+:leela.entropynet.net 372 SubnetBot :- - Follow channel rules (this will not be handled by opers unless in          
+:leela.entropynet.net 372 SubnetBot :- -- #entropynet or another oper controlled channel (#lounge,    
+:leela.entropynet.net 372 SubnetBot :- --  #caffeine-linux)                                                         
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- - Don't hack us, this will result in near definite PermaBans!; don't flood,
+:leela.entropynet.net 372 SubnetBot :- -- repetitively flooding will result in a temporary ban.                      
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- - Don't argue with the opers about these rules, it makes us sad              
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- - Speak the normal language of the channel, if the general population of the 
+:leela.entropynet.net 372 SubnetBot :- -- channel is speaking English, don't break the flow with a random Russian 
+:leela.entropynet.net 372 SubnetBot :- -- conversation-- if you would like to have a non-English channel ple
+ase name
+:leela.entropynet.net 372 SubnetBot :- -- it something like #musicnerds-jp (for Japanese as an example).
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- Some guidelines, these will be enforced:
+:leela.entropynet.net 372 SubnetBot :- - No spamming and/or advertising.
+:leela.entropynet.net 372 SubnetBot :- - No ASCII art, #ascii is excepted.
+:leela.entropynet.net 372 SubnetBot :- - Don't ask for oper privileges, you'll get killed for your troubles.
+:leela.entropynet.net 372 SubnetBot :- - Avoid talking in caps, unless in #rant
+:leela.entropynet.net 372 SubnetBot :- - No links to shock sites, and no child pornography.
+:leela.entropynet.net 372 SubnetBot :- - Use of the nick/user root is not allowed. 
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- REMEMBER: Decisions made by staff are final.
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- Interesting channels:
+:leela.entropynet.net 372 SubnetBot :- - #lounge - General chat channel
+:leela.entropynet.net 372 SubnetBot :- - #EntropyNet - Network channel, for network related business and/or issues
+:leela.entropynet.net 372 SubnetBot :- - #ascii - See rule 2.
+:leela.entropynet.net 372 SubnetBot :- - #anime - talk about anime. Home of Alice the NEET Detective.
+:leela.entropynet.net 372 SubnetBot :- - #gamers - for the gamers
+:leela.entropynet.net 372 SubnetBot :- - #musicnerds - we <3 music
+:leela.entropynet.net 372 SubnetBot :- - #links - if you have a server and want to link with our IRCnet, join this.
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- Bots
+:leela.entropynet.net 372 SubnetBot :- - If you would like to run a bot you must msg an operator first,
+:leela.entropynet.net 372 SubnetBot :- - We will either allow or deny your bot to access the network,
+:leela.entropynet.net 372 SubnetBot :- - if you connect your bot anyway you and your bot will be G:Lined
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- NOTE - You can give yourself +w to see noncritical global notices (and set it to your automodes).
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- Network Administrators ( opers )
+:leela.entropynet.net 372 SubnetBot :- - foxwolfblood
+:leela.entropynet.net 372 SubnetBot :- - cafejunkie
+:leela.entropynet.net 372 SubnetBot :- - staticsafe
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 376 SubnetBot :End of message of the day.
+:leela.entropynet.net 251 SubnetBot :There are 24 users and 23 invisible on 5 servers
+:leela.entropynet.net 252 SubnetBot 17 :operator(s) online
+:leela.entropynet.net 254 SubnetBot 49 :channels formed
+:leela.entropynet.net 255 SubnetBot :I have 20 clients and 4 servers
+:leela.entropynet.net 265 SubnetBot :Current Local Users: 20  Max: 25
+:leela.entropynet.net 266 SubnetBot :Current Global Users: 47  Max: 60
+:leela.entropynet.net 396 SubnetBot net-vm7.rh5.235.64.IP :is now your displayed host
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP MODE SubnetBot +x
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+:StatServ!stats@entropynet.net PRIVMSG SubnetBot :VERSION
+
+Logging in...
+Login successful!
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+:leela.entropynet.net 403 SubnetBot i :Invalid channel name
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP JOIN :#
+:leela.entropynet.net 353 SubnetBot = # :jordanmkasla2009 ~Dan SubnetBot @ChanServ 
+:leela.entropynet.net 366 SubnetBot # :End of /NAMES list.
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+:leela.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :You are now identified for SubnetBot.
+:leela.entropynet.net 900 SubnetBot SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP SubnetBot :You are now logged in as SubnetBot
+:leela.entropynet.net MODE SubnetBot -x
+:leela.entropynet.net 396 SubnetBot subnetbot.subnetsoftware :is now your displayed host
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#compsci
+:leela.entropynet.net 332 SubnetBot #compsci :12Welcome to #compsci | Please speak english here | Keep Conversations civil (no unnecessary vulgarity or trolling) | Have a wonderful day :D
+:leela.entropynet.net 333 SubnetBot #compsci jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware 1335885549
+:leela.entropynet.net 353 SubnetBot = #compsci :~jordanmkasla2009 +Dan subnet_bot_sama +Jacky %TingPing SubnetBot @ChanServ 
+:leela.entropynet.net 366 SubnetBot #compsci :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #compsci +o SubnetBot
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#subnetsoftware
+:leela.entropynet.net 353 SubnetBot = #subnetsoftware :~jordanmkasla2009 subnet_bot_sama SubnetBot @ChanServ 
+:leela.entropynet.net 366 SubnetBot #subnetsoftware :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #subnetsoftware +o SubnetBot
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&stock FB NASDAQ
+
+:leela.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG # :&part #
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware PART #
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&quit
+
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\SubnetBot\core.py", line 50, in <module>
+    module_results = command_parser(message, connection)
+  File "C:\Users\Admin\Documents\SubnetBot\parse.py", line 93, in command_parser
+    raise SystemExit
+SystemExit
+>>> ================================ RESTART ================================
+>>> 
+Loading Settings...
+Load Successful!
+Registering to server
+:leela.entropynet.net NOTICE Auth :*** Looking up your hostname...
+:leela.entropynet.net NOTICE Auth :*** Could not resolve your hostname: Domain name not found; using your IP address (64.235.110.226) instead.
+
+:leela.entropynet.net 451 JOIN :You have not registered
+
+:leela.entropynet.net 451 JOIN :You have not registered
+
+:leela.entropynet.net 451 JOIN :You have not registered
+
+:leela.entropynet.net 451 JOIN :You have not registered
+
+:leela.entropynet.net 451 JOIN :You have not registered
+
+:leela.entropynet.net 451 JOIN :You have not registered
+:leela.entropynet.net NOTICE Auth :Welcome to EntropyNet!
+:leela.entropynet.net 001 SubnetBot :Welcome to the EntropyNet IRC Network SubnetBot!SubnetBot@64.235.110.226
+:leela.entropynet.net 002 SubnetBot :Your host is leela.entropynet.net, running version InspIRCd-2.0
+:leela.entropynet.net 003 SubnetBot :This server was created 12:06:14 Apr  3 2012
+:leela.entropynet.net 004 SubnetBot leela.entropynet.net InspIRCd-2.0 BHIRSWcdhikorswx ABCFIKLMNOQRSTYabcefghijklmnopqrstuvz FILYabefghjkloqv
+:leela.entropynet.net 005 SubnetBot AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=IYbeg,k,FLfjl,ABCKMNOQRSTcimnprstuz CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ABCNOQRSTcmprz FNC INVEX=I KICKLEN=256 MAP MAXBANS=60 :are supported by this server
+:leela.entropynet.net 005 SubnetBot MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=EntropyNet NICKLEN=32 OPERLOG OVERRIDE PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STATUSMSG=~&@%+ TOPICLEN=308 :are supported by this server
+:leela.entropynet.net 005 SubnetBot UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+:leela.entropynet.net 042 SubnetBot 9Z2AAAMOD :your unique ID
+:leela.entropynet.net 375 SubnetBot :leela.entropynet.net message of the day
+:leela.entropynet.net 372 SubnetBot :- ### ###                                               ##  ## ### ###          
+:leela.entropynet.net 372 SubnetBot :-  ##  ## ##   ## ###### #####    ####   ###### ##   ## ###  #  ##  ##  ######  
+:leela.entropynet.net 372 SubnetBot :-  ##     ###  ##   ##  ##   ##  ##  ## ##   ## ##   ##  ### #  ##        ##    
+:leela.entropynet.net 372 SubnetBot :-  ## ##  #### ##   ##  ##   ## ##   ## ##  ##  ##   ## # ####  ## ##     ##    
+:leela.entropynet.net 372 SubnetBot :-  ##     ## ####   ##  ## ###  ##   ## ## ##    # #### #  ###  ##        ##    
+:leela.entropynet.net 372 SubnetBot :-  ##  ## ##  ###   ##  ##  ##  ##   ## ####         ## #   ##  ##  ##    ##    
+:leela.entropynet.net 372 SubnetBot :- ### ### ##   ##   ##  ##   ## ##   ## ##          ## ###  ## ### ###    ##    
+:leela.entropynet.net 372 SubnetBot :-         ##   ##   ##  ##   ## ## ###  ##       ####                     ##                               
+:leela.entropynet.net 372 SubnetBot :- -----------------------------------------------------------------------------
+:leela.entropynet.net 372 SubnetBot :-                                                                              
+:leela.entropynet.net 372 SubnetBot :- Server: leela.entropynet.net                                           
+:leela.entropynet.net 372 SubnetBot :- Website : http://entropynet.net
+:leela.entropynet.net 372 SubnetBot :-                                                                              
+:leela.entropynet.net 372 SubnetBot :- Rules:                                                                      
+:leela.entropynet.net 372 SubnetBot :- - Follow channel rules (this will not be handled by opers unless in          
+:leela.entropynet.net 372 SubnetBot :- -- #entropynet or another oper controlled channel (#lounge,    
+:leela.entropynet.net 372 SubnetBot :- --  #caffeine-linux)                                                         
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- - Don't hack us, this will result in near definite PermaBans!; don't flood,
+:leela.entropynet.net 372 SubnetBot :- -- repetitively flooding will result in a temporary ban.                      
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- - Don't argue with the opers about these rules, it makes us sad              
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- - Speak the normal language of the channel, if the general population of the 
+:leela.entropynet.net 372 SubnetBot :- -- channel is speaking English, don't break the flow with a random Russian 
+:leela.entropynet.net 372 SubnetBot :- -- conversation-- if you would like to have a non-English channel ple
+ase name
+:leela.entropynet.net 372 SubnetBot :- -- it something like #musicnerds-jp (for Japanese as an example).
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- Some guidelines, these will be enforced:
+:leela.entropynet.net 372 SubnetBot :- - No spamming and/or advertising.
+:leela.entropynet.net 372 SubnetBot :- - No ASCII art, #ascii is excepted.
+:leela.entropynet.net 372 SubnetBot :- - Don't ask for oper privileges, you'll get killed for your troubles.
+:leela.entropynet.net 372 SubnetBot :- - Avoid talking in caps, unless in #rant
+:leela.entropynet.net 372 SubnetBot :- - No links to shock sites, and no child pornography.
+:leela.entropynet.net 372 SubnetBot :- - Use of the nick/user root is not allowed. 
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- REMEMBER: Decisions made by staff are final.
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- Interesting channels:
+:leela.entropynet.net 372 SubnetBot :- - #lounge - General chat channel
+:leela.entropynet.net 372 SubnetBot :- - #EntropyNet - Network channel, for network related business and/or issues
+:leela.entropynet.net 372 SubnetBot :- - #ascii - See rule 2.
+:leela.entropynet.net 372 SubnetBot :- - #anime - talk about anime. Home of Alice the NEET Detective.
+:leela.entropynet.net 372 SubnetBot :- - #gamers - for the gamers
+:leela.entropynet.net 372 SubnetBot :- - #musicnerds - we <3 music
+:leela.entropynet.net 372 SubnetBot :- - #links - if you have a server and want to link with our IRCnet, join this.
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- Bots
+:leela.entropynet.net 372 SubnetBot :- - If you would like to run a bot you must msg an operator first,
+:leela.entropynet.net 372 SubnetBot :- - We will either allow or deny your bot to access the network,
+:leela.entropynet.net 372 SubnetBot :- - if you connect your bot anyway you and your bot will be G:Lined
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- NOTE - You can give yourself +w to see noncritical global notices (and set it to your automodes).
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- Network Administrators ( opers )
+:leela.entropynet.net 372 SubnetBot :- - foxwolfblood
+:leela.entropynet.net 372 SubnetBot :- - cafejunkie
+:leela.entropynet.net 372 SubnetBot :- - staticsafe
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 376 SubnetBot :End of message of the day.
+:leela.entropynet.net 251 SubnetBot :There are 24 users and 23 invisible on 5 servers
+:leela.entropynet.net 252 SubnetBot 17 :operator(s) online
+:leela.entropynet.net 254 SubnetBot 49 :channels formed
+:leela.entropynet.net 255 SubnetBot :I have 20 clients and 4 servers
+:leela.entropynet.net 265 SubnetBot :Current Local Users: 20  Max: 25
+:leela.entropynet.net 266 SubnetBot :Current Global Users: 47  Max: 60
+:leela.entropynet.net 396 SubnetBot net-vm7.rh5.235.64.IP :is now your displayed host
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP MODE SubnetBot +x
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+
+Logging in...
+Login successful!
+:StatServ!stats@entropynet.net PRIVMSG SubnetBot :VERSION
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+:leela.entropynet.net 403 SubnetBot i :Invalid channel name
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP JOIN :#
+:leela.entropynet.net 353 SubnetBot = # :jordanmkasla2009 ~Dan SubnetBot @ChanServ 
+:leela.entropynet.net 366 SubnetBot # :End of /NAMES list.
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+:leela.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG # :7part #
+
+:leela.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG # :&part #
+
+:leela.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :You are now identified for SubnetBot.
+:leela.entropynet.net 900 SubnetBot SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP SubnetBot :You are now logged in as SubnetBot
+:leela.entropynet.net MODE SubnetBot -x
+:leela.entropynet.net 396 SubnetBot subnetbot.subnetsoftware :is now your displayed host
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#compsci
+:leela.entropynet.net 332 SubnetBot #compsci :12Welcome to #compsci | Please speak english here | Keep Conversations civil (no unnecessary vulgarity or trolling) | Have a wonderful day :D
+:leela.entropynet.net 333 SubnetBot #compsci jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware 1335885549
+:leela.entropynet.net 353 SubnetBot = #compsci :~jordanmkasla2009 +Dan subnet_bot_sama +Jacky %TingPing SubnetBot @ChanServ 
+:leela.entropynet.net 366 SubnetBot #compsci :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #compsci +o SubnetBot
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#subnetsoftware
+:leela.entropynet.net 353 SubnetBot = #subnetsoftware :~jordanmkasla2009 subnet_bot_sama SubnetBot @ChanServ 
+:leela.entropynet.net 366 SubnetBot #subnetsoftware :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #subnetsoftware +o SubnetBot
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG # :&part #
+
+:leela.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware PART #
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&stock FB NASDAQ
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&quit
+
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\SubnetBot\core.py", line 50, in <module>
+    module_results = command_parser(message, connection)
+  File "C:\Users\Admin\Documents\SubnetBot\parse.py", line 93, in command_parser
+    raise SystemExit
+SystemExit
+>>> ================================ RESTART ================================
+>>> 
+Loading Settings...
+Load Successful!
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\SubnetBot\core.py", line 14, in <module>
+    connection.connect()
+  File "C:\Users\Admin\Documents\SubnetBot\connect.py", line 60, in connect
+    self.sock.connect((self.server, self.port))
+  File "C:\Python27\lib\ssl.py", line 331, in connect
+    self._real_connect(addr, False)
+  File "C:\Python27\lib\ssl.py", line 324, in _real_connect
+    raise e
+error: [Errno 10061] No connection could be made because the target machine actively refused it
+>>> ================================ RESTART ================================
+>>> 
+Loading Settings...
+Load Successful!
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\SubnetBot\core.py", line 14, in <module>
+    connection.connect()
+  File "C:\Users\Admin\Documents\SubnetBot\connect.py", line 60, in connect
+    self.sock.connect((self.server, self.port))
+  File "C:\Python27\lib\ssl.py", line 331, in connect
+    self._real_connect(addr, False)
+  File "C:\Python27\lib\ssl.py", line 324, in _real_connect
+    raise e
+error: [Errno 10061] No connection could be made because the target machine actively refused it
+>>> ================================ RESTART ================================
+>>> 
+Loading Settings...
+Load Successful!
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\SubnetBot\core.py", line 14, in <module>
+    connection.connect()
+  File "C:\Users\Admin\Documents\SubnetBot\connect.py", line 60, in connect
+    self.sock.connect((self.server, self.port))
+  File "C:\Python27\lib\ssl.py", line 331, in connect
+    self._real_connect(addr, False)
+  File "C:\Python27\lib\ssl.py", line 324, in _real_connect
+    raise e
+error: [Errno 10061] No connection could be made because the target machine actively refused it
+>>> ================================ RESTART ================================
+>>> 
+Loading Settings...
+Load Successful!
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\SubnetBot\core.py", line 14, in <module>
+    connection.connect()
+  File "C:\Users\Admin\Documents\SubnetBot\connect.py", line 60, in connect
+    self.sock.connect((self.server, self.port))
+  File "C:\Python27\lib\ssl.py", line 331, in connect
+    self._real_connect(addr, False)
+  File "C:\Python27\lib\ssl.py", line 324, in _real_connect
+    raise e
+error: [Errno 10061] No connection could be made because the target machine actively refused it
+>>> ================================ RESTART ================================
+>>> 
+Loading Settings...
+Load Successful!
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\SubnetBot\core.py", line 14, in <module>
+    connection.connect()
+  File "C:\Users\Admin\Documents\SubnetBot\connect.py", line 60, in connect
+    self.sock.connect((self.server, self.port))
+  File "C:\Python27\lib\ssl.py", line 331, in connect
+    self._real_connect(addr, False)
+  File "C:\Python27\lib\ssl.py", line 324, in _real_connect
+    raise e
+error: [Errno 10061] No connection could be made because the target machine actively refused it
+>>> ================================ RESTART ================================
+>>> 
+Loading Settings...
+Load Successful!
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\SubnetBot\core.py", line 14, in <module>
+    connection.connect()
+  File "C:\Users\Admin\Documents\SubnetBot\connect.py", line 60, in connect
+    self.sock.connect((self.server, self.port))
+  File "C:\Python27\lib\ssl.py", line 331, in connect
+    self._real_connect(addr, False)
+  File "C:\Python27\lib\ssl.py", line 324, in _real_connect
+    raise e
+error: [Errno 10061] No connection could be made because the target machine actively refused it
+>>> ================================ RESTART ================================
+>>> 
+Loading Settings...
+Load Successful!
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\SubnetBot\core.py", line 14, in <module>
+    connection.connect()
+  File "C:\Users\Admin\Documents\SubnetBot\connect.py", line 60, in connect
+    self.sock.connect((self.server, self.port))
+  File "C:\Python27\lib\ssl.py", line 331, in connect
+    self._real_connect(addr, False)
+  File "C:\Python27\lib\ssl.py", line 324, in _real_connect
+    raise e
+error: [Errno 10061] No connection could be made because the target machine actively refused it
+>>> ================================ RESTART ================================
+>>> 
+Loading Settings...
+Load Successful!
+Registering to server
+:kif.entropynet.net NOTICE Auth :*** Looking up your hostname...
+
+:kif.entropynet.net NOTICE Auth :*** Could not resolve your hostname: Domain name not found; using your IP address (64.235.110.226) instead.
+
+:kif.entropynet.net 451 JOIN :You have not registered
+
+:kif.entropynet.net 451 JOIN :You have not registered
+
+:kif.entropynet.net 451 JOIN :You have not registered
+
+:kif.entropynet.net 451 JOIN :You have not registered
+
+:kif.entropynet.net 451 JOIN :You have not registered
+
+:kif.entropynet.net 451 JOIN :You have not registered
+:kif.entropynet.net NOTICE Auth :Welcome to EntropyNet!
+:kif.entropynet.net 001 SubnetBot :Welcome to the EntropyNet IRC Network SubnetBot!SubnetBot@64.235.110.226
+:kif.entropynet.net 002 SubnetBot :Your host is kif.entropynet.net, running version InspIRCd-2.0
+:kif.entropynet.net 003 SubnetBot :This server was created 17:01:51 Apr  3 2012
+:kif.entropynet.net 004 SubnetBot kif.entropynet.net InspIRCd-2.0 BHIRSWcdhikorswx ABCFIKLMNOQRSTYabcefghijklmnopqrstuvz FILYabefghjkloqv
+:kif.entropynet.net 005 SubnetBot AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=IYbeg,k,FLfjl,ABCKMNOQRSTcimnprstuz CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ABCNOQRSTcmprz FNC INVEX=I KICKLEN=256 MAP MAXBANS=60 :are supported by this server
+:kif.entropynet.net 005 SubnetBot MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=EntropyNet NICKLEN=32 OPERLOG OVERRIDE PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STATUSMSG=~&@%+ TOPICLEN=308 :are supported by this server
+:kif.entropynet.net 005 SubnetBot UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+:kif.entropynet.net 042 SubnetBot 4SZAAAFQH :your unique ID
+:kif.entropynet.net 375 SubnetBot :kif.entropynet.net message of the day
+:kif.entropynet.net 372 SubnetBot :- ### ###                                               ##  ## ### ###          
+:kif.entropynet.net 372 SubnetBot :-  ##  ## ##   ## ###### #####    ####   ###### ##   ## ###  #  ##  ##  ######  
+:kif.entropynet.net 372 SubnetBot :-  ##     ###  ##   ##  ##   ##  ##  ## ##   ## ##   ##  ### #  ##        ##    
+:kif.entropynet.net 372 SubnetBot :-  ## ##  #### ##   ##  ##   ## ##   ## ##  ##  ##   ## # ####  ## ##     ##    
+:kif.entropynet.net 372 SubnetBot :-  ##     ## ####   ##  ## ###  ##   ## ## ##    # #### #  ###  ##        ##    
+:kif.entropynet.net 372 SubnetBot :-  ##  ## ##  ###   ##  ##  ##  ##   ## ####         ## #   ##  ##  ##    ##    
+:kif.entropynet.net 372 SubnetBot :- ### ### ##   ##   ##  ##   ## ##   ## ##          ## ###  ## ### ###    ##    
+:kif.entropynet.net 372 SubnetBot :-         ##   ##   ##  ##   ## ## ###  ##       ####                     ##                               
+:kif.entropynet.net 372 SubnetBot :- -----------------------------------------------------------------------------
+:kif.entropynet.net 372 SubnetBot :-                                                                              
+:kif.entropynet.net 372 SubnetBot :- Server: kif.entropynet.net                                           
+:kif.entropynet.net 372 SubnetBot :- Website : http://entropynet.net
+:kif.entropynet.net 372 SubnetBot :-                                                                              
+:kif.entropynet.net 372 SubnetBot :- Rules:                                                                      
+:kif.entropynet.net 372 SubnetBot :- - Follow channel rules (this will not be handled by opers unless in          
+:kif.entropynet.net 372 SubnetBot :- -- #entropynet or another oper controlled channel (#lounge,    
+:kif.entropynet.net 372 SubnetBot :- --  #caffeine-linux)                                                         
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- - Don't hack us, this will result in near definite PermaBans!; don't flood,
+:kif.entropynet.net 372 SubnetBot :- -- repetitively flooding will result in a temporary ban.                      
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- - Don't argue with the opers about these rules, it makes us sad              
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- - Speak the normal language of the channel, if the general population of the 
+:kif.entropynet.net 372 SubnetBot :- -- channel is speaking English, don't break the flow with a random Russian 
+:kif.entropynet.net 372 SubnetBot :- -- conversation-- if you would like to have a non-English channel please name
+:kif.entropynet.net 372 SubnetBot :- -- it something like #musicnerds-jp
+ (for Japanese as an example).
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Some guidelines, these will be enforced:
+:kif.entropynet.net 372 SubnetBot :- - No spamming and/or advertising.
+:kif.entropynet.net 372 SubnetBot :- - No ASCII art, #ascii is excepted.
+:kif.entropynet.net 372 SubnetBot :- - Don't ask for oper privileges, you'll get killed for your troubles.
+:kif.entropynet.net 372 SubnetBot :- - Avoid talking in caps, unless in #rant
+:kif.entropynet.net 372 SubnetBot :- - No links to shock sites, and no child pornography.
+:kif.entropynet.net 372 SubnetBot :- - Use of the nick/user root is not allowed. 
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- REMEMBER: Decisions made by staff are final.
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Interesting channels:
+:kif.entropynet.net 372 SubnetBot :- - #lounge - General chat channel
+:kif.entropynet.net 372 SubnetBot :- - #EntropyNet - Network channel, for network related business and/or issues
+:kif.entropynet.net 372 SubnetBot :- - #ascii - See rule 2.
+:kif.entropynet.net 372 SubnetBot :- - #anime - talk about anime. Home of Alice the NEET Detective.
+:kif.entropynet.net 372 SubnetBot :- - #gamers - for the gamers
+:kif.entropynet.net 372 SubnetBot :- - #musicnerds - we <3 music
+:kif.entropynet.net 372 SubnetBot :- - #links - if you have a server and want to link with our IRCnet, join this.
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Bots
+:kif.entropynet.net 372 SubnetBot :- - If you would like to run a bot you must msg an operator first,
+:kif.entropynet.net 372 SubnetBot :- - We will either allow or deny your bot to access the network,
+:kif.entropynet.net 372 SubnetBot :- - if you connect your bot anyway you and your bot will be G:Lined
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- NOTE - You can give yourself +w to see noncritical global notices (and set it to your automodes).
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Network Administrators ( opers )
+:kif.entropynet.net 372 SubnetBot :- - foxwolfblood
+:kif.entropynet.net 372 SubnetBot :- - cafejunkie
+:kif.entropynet.net 372 SubnetBot :- - staticsafe
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 376 SubnetBot :End of message of the day.
+:kif.entropynet.net 251 SubnetBot :There are 24 users and 23 invisible on 5 servers
+:kif.entropynet.net 252 SubnetBot 17 :operator(s) online
+:kif.entropynet.net 254 SubnetBot 49 :channels formed
+:kif.entropynet.net 255 SubnetBot :I have 12 clients and 1 servers
+:kif.entropynet.net 265 SubnetBot :Current Local Users: 12  Max: 17
+:kif.entropynet.net 266 SubnetBot :Current Global Users: 47  Max: 60
+:kif.entropynet.net 396 SubnetBot net-vm7.rh5.235.64.IP :is now your displayed host
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP MODE SubnetBot +x
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+
+Logging in...
+Login successful!
+:StatServ!stats@entropynet.net PRIVMSG SubnetBot :VERSION
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP JOIN :#
+:kif.entropynet.net 353 SubnetBot = # :~Dan SubnetBot @ChanServ jordanmkasla2009 
+:kif.entropynet.net 366 SubnetBot # :End of /NAMES list.
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+:kif.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :You are now identified for SubnetBot.
+:kif.entropynet.net 900 SubnetBot SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP SubnetBot :You are now logged in as SubnetBot
+:kif.entropynet.net MODE SubnetBot -x
+:kif.entropynet.net 396 SubnetBot subnetbot.subnetsoftware :is now your displayed host
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#compsci
+:kif.entropynet.net 332 SubnetBot #compsci :12Welcome to #compsci | Please speak english here | Keep Conversations civil (no unnecessary vulgarity or trolling) | Have a wonderful day :D
+:kif.entropynet.net 333 SubnetBot #compsci jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware 1335885549
+:kif.entropynet.net 353 SubnetBot = #compsci :+Dan +Jacky %TingPing subnet_bot_sama SubnetBot @ChanServ ~jordanmkasla2009 
+:kif.entropynet.net 366 SubnetBot #compsci :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #compsci +o SubnetBot
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#subnetsoftware
+:kif.entropynet.net 353 SubnetBot = #subnetsoftware :subnet_bot_sama SubnetBot @ChanServ ~jordanmkasla2009 
+:kif.entropynet.net 366 SubnetBot #subnetsoftware :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #subnetsoftware +o SubnetBot
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG # :&part #
+
+:kif.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&stock FB NASDAQ
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware PART #
+
+PING :kif.entropynet.net
+
+PING :kif.entropynet.net
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&quit
+
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\SubnetBot\core.py", line 50, in <module>
+    module_results = command_parser(message, connection)
+  File "C:\Users\Admin\Documents\SubnetBot\parse.py", line 93, in command_parser
+    raise SystemExit
+SystemExit
+>>> ================================ RESTART ================================
+>>> 
+Loading Settings...
+Load Successful!
+Registering to server
+:kif.entropynet.net NOTICE Auth :*** Looking up your hostname...
+:kif.entropynet.net NOTICE Auth :*** Could not resolve your hostname: Domain name not found; using your IP address (64.235.110.226) instead.
+
+:kif.entropynet.net 451 JOIN :You have not registered
+
+:kif.entropynet.net 451 JOIN :You have not registered
+
+:kif.entropynet.net 451 JOIN :You have not registered
+
+:kif.entropynet.net 451 JOIN :You have not registered
+
+:kif.entropynet.net 451 JOIN :You have not registered
+
+:kif.entropynet.net 451 JOIN :You have not registered
+:kif.entropynet.net NOTICE Auth :Welcome to EntropyNet!
+:kif.entropynet.net 001 SubnetBot :Welcome to the EntropyNet IRC Network SubnetBot!SubnetBot@64.235.110.226
+:kif.entropynet.net 002 SubnetBot :Your host is kif.entropynet.net, running version InspIRCd-2.0
+:kif.entropynet.net 003 SubnetBot :This server was created 17:01:51 Apr  3 2012
+:kif.entropynet.net 004 SubnetBot kif.entropynet.net InspIRCd-2.0 BHIRSWcdhikorswx ABCFIKLMNOQRSTYabcefghijklmnopqrstuvz FILYabefghjkloqv
+:kif.entropynet.net 005 SubnetBot AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=IYbeg,k,FLfjl,ABCKMNOQRSTcimnprstuz CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ABCNOQRSTcmprz FNC INVEX=I KICKLEN=256 MAP MAXBANS=60 :are supported by this server
+:kif.entropynet.net 005 SubnetBot MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=EntropyNet NICKLEN=32 OPERLOG OVERRIDE PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STATUSMSG=~&@%+ TOPICLEN=308 :are supported by this server
+:kif.entropynet.net 005 SubnetBot UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+:kif.entropynet.net 042 SubnetBot 4SZAAAFQJ :your unique ID
+:kif.entropynet.net 375 SubnetBot :kif.entropynet.net message of the day
+:kif.entropynet.net 372 SubnetBot :- ### ###                                               ##  ## ### ###          
+:kif.entropynet.net 372 SubnetBot :-  ##  ## ##   ## ###### #####    ####   ###### ##   ## ###  #  ##  ##  ######  
+:kif.entropynet.net 372 SubnetBot :-  ##     ###  ##   ##  ##   ##  ##  ## ##   ## ##   ##  ### #  ##        ##    
+:kif.entropynet.net 372 SubnetBot :-  ## ##  #### ##   ##  ##   ## ##   ## ##  ##  ##   ## # ####  ## ##     ##    
+:kif.entropynet.net 372 SubnetBot :-  ##     ## ####   ##  ## ###  ##   ## ## ##    # #### #  ###  ##        ##    
+:kif.entropynet.net 372 SubnetBot :-  ##  ## ##  ###   ##  ##  ##  ##   ## ####         ## #   ##  ##  ##    ##    
+:kif.entropynet.net 372 SubnetBot :- ### ### ##   ##   ##  ##   ## ##   ## ##          ## ###  ## ### ###    ##    
+:kif.entropynet.net 372 SubnetBot :-         ##   ##   ##  ##   ## ## ###  ##       ####                     ##                               
+:kif.entropynet.net 372 SubnetBot :- -----------------------------------------------------------------------------
+:kif.entropynet.net 372 SubnetBot :-                                                                              
+:kif.entropynet.net 372 SubnetBot :- Server: kif.entropynet.net                                           
+:kif.entropynet.net 372 SubnetBot :- Website : http://entropynet.net
+:kif.entropynet.net 372 SubnetBot :-                                                                              
+:kif.entropynet.net 372 SubnetBot :- Rules:                                                                      
+:kif.entropynet.net 372 SubnetBot :- - Follow channel rules (this will not be handled by opers unless in          
+:kif.entropynet.net 372 SubnetBot :- -- #entropynet or another oper controlled channel (#lounge,    
+:kif.entropynet.net 372 SubnetBot :- --  #caffeine-linux)                                                         
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- - Don't hack us, this will result in near definite PermaBans!; don't flood,
+:kif.entropynet.net 372 SubnetBot :- -- repetitively flooding will result in a temporary ban.                      
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- - Don't argue with the opers about these rules, it makes us sad              
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- - Speak the normal language of the channel, if the general population of the 
+:kif.entropynet.net 372 SubnetBot :- -- channel is speaking English, don't break the flow with a random Russian 
+:kif.entropynet.net 372 SubnetBot :- -- conversation-- if you would like to have a non-English channel please name
+:kif.entropynet.net 372 SubnetBot :- -- it something like #musicnerds-jp
+ (for Japanese as an example).
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Some guidelines, these will be enforced:
+:kif.entropynet.net 372 SubnetBot :- - No spamming and/or advertising.
+:kif.entropynet.net 372 SubnetBot :- - No ASCII art, #ascii is excepted.
+:kif.entropynet.net 372 SubnetBot :- - Don't ask for oper privileges, you'll get killed for your troubles.
+:kif.entropynet.net 372 SubnetBot :- - Avoid talking in caps, unless in #rant
+:kif.entropynet.net 372 SubnetBot :- - No links to shock sites, and no child pornography.
+:kif.entropynet.net 372 SubnetBot :- - Use of the nick/user root is not allowed. 
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- REMEMBER: Decisions made by staff are final.
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Interesting channels:
+:kif.entropynet.net 372 SubnetBot :- - #lounge - General chat channel
+:kif.entropynet.net 372 SubnetBot :- - #EntropyNet - Network channel, for network related business and/or issues
+:kif.entropynet.net 372 SubnetBot :- - #ascii - See rule 2.
+:kif.entropynet.net 372 SubnetBot :- - #anime - talk about anime. Home of Alice the NEET Detective.
+:kif.entropynet.net 372 SubnetBot :- - #gamers - for the gamers
+:kif.entropynet.net 372 SubnetBot :- - #musicnerds - we <3 music
+:kif.entropynet.net 372 SubnetBot :- - #links - if you have a server and want to link with our IRCnet, join this.
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Bots
+:kif.entropynet.net 372 SubnetBot :- - If you would like to run a bot you must msg an operator first,
+:kif.entropynet.net 372 SubnetBot :- - We will either allow or deny your bot to access the network,
+:kif.entropynet.net 372 SubnetBot :- - if you connect your bot anyway you and your bot will be G:Lined
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- NOTE - You can give yourself +w to see noncritical global notices (and set it to your automodes).
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Network Administrators ( opers )
+:kif.entropynet.net 372 SubnetBot :- - foxwolfblood
+:kif.entropynet.net 372 SubnetBot :- - cafejunkie
+:kif.entropynet.net 372 SubnetBot :- - staticsafe
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 376 SubnetBot :End of message of the day.
+:kif.entropynet.net 251 SubnetBot :There are 24 users and 23 invisible on 5 servers
+:kif.entropynet.net 252 SubnetBot 17 :operator(s) online
+:kif.entropynet.net 254 SubnetBot 49 :channels formed
+:kif.entropynet.net 255 SubnetBot :I have 12 clients and 1 servers
+:kif.entropynet.net 265 SubnetBot :Current Local Users: 12  Max: 17
+:kif.entropynet.net 266 SubnetBot :Current Global Users: 47  Max: 60
+:kif.entropynet.net 396 SubnetBot net-vm7.rh5.235.64.IP :is now your displayed host
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP MODE SubnetBot +x
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+
+Logging in...
+Login successful!
+:StatServ!stats@entropynet.net PRIVMSG SubnetBot :VERSION
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP JOIN :#
+:kif.entropynet.net 353 SubnetBot = # :~Dan @ChanServ SubnetBot jordanmkasla2009 
+:kif.entropynet.net 366 SubnetBot # :End of /NAMES list.
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+:kif.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :You are now identified for SubnetBot.
+:kif.entropynet.net 900 SubnetBot SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP SubnetBot :You are now logged in as SubnetBot
+:kif.entropynet.net MODE SubnetBot -x
+:kif.entropynet.net 396 SubnetBot subnetbot.subnetsoftware :is now your displayed host
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#compsci
+:kif.entropynet.net 332 SubnetBot #compsci :12Welcome to #compsci | Please speak english here | Keep Conversations civil (no unnecessary vulgarity or trolling) | Have a wonderful day :D
+:kif.entropynet.net 333 SubnetBot #compsci jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware 1335885549
+:kif.entropynet.net 353 SubnetBot = #compsci :+Dan +Jacky %TingPing subnet_bot_sama @ChanServ SubnetBot ~jordanmkasla2009 
+:kif.entropynet.net 366 SubnetBot #compsci :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #compsci +o SubnetBot
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#subnetsoftware
+:kif.entropynet.net 353 SubnetBot = #subnetsoftware :subnet_bot_sama @ChanServ SubnetBot ~jordanmkasla2009 
+:kif.entropynet.net 366 SubnetBot #subnetsoftware :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #subnetsoftware +o SubnetBot
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&stock FB NASDAQ
+
+PING :kif.entropynet.net
+
+PING :kif.entropynet.net
+
+PING :kif.entropynet.net
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&quit
+
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\SubnetBot\core.py", line 50, in <module>
+    module_results = command_parser(message, connection)
+  File "C:\Users\Admin\Documents\SubnetBot\parse.py", line 93, in command_parser
+    raise SystemExit
+SystemExit
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\SubnetBot\core.py", line 4, in <module>
+    from parse import *
+  File "C:\Users\Admin\Documents\SubnetBot\parse.py", line 7, in <module>
+    from modules.stock import GoogleFinanceAPI as Stock
+  File "C:\Users\Admin\Documents\SubnetBot\modules\stock.py", line 79
+    with open('NYSE.txt', 'rb') as f:
+   ^
+IndentationError: unexpected indent
+>>> ================================ RESTART ================================
+>>> 
+Loading Settings...
+Load Successful!
+Registering to server
+:leela.entropynet.net NOTICE Auth :*** Looking up your hostname...
+
+:leela.entropynet.net NOTICE Auth :*** Could not resolve your hostname: Domain name not found; using your IP address (64.235.110.226) instead.
+
+:leela.entropynet.net 451 JOIN :You have not registered
+
+:leela.entropynet.net 451 JOIN :You have not registered
+
+:leela.entropynet.net 451 JOIN :You have not registered
+
+:leela.entropynet.net 451 JOIN :You have not registered
+
+:leela.entropynet.net 451 JOIN :You have not registered
+
+:leela.entropynet.net 451 JOIN :You have not registered
+:leela.entropynet.net NOTICE Auth :Welcome to EntropyNet!
+:leela.entropynet.net 001 SubnetBot :Welcome to the EntropyNet IRC Network SubnetBot!SubnetBot@64.235.110.226
+:leela.entropynet.net 002 SubnetBot :Your host is leela.entropynet.net, running version InspIRCd-2.0
+:leela.entropynet.net 003 SubnetBot :This server was created 12:06:14 Apr  3 2012
+:leela.entropynet.net 004 SubnetBot leela.entropynet.net InspIRCd-2.0 BHIRSWcdhikorswx ABCFIKLMNOQRSTYabcefghijklmnopqrstuvz FILYabefghjkloqv
+:leela.entropynet.net 005 SubnetBot AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=IYbeg,k,FLfjl,ABCKMNOQRSTcimnprstuz CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ABCNOQRSTcmprz FNC INVEX=I KICKLEN=256 MAP MAXBANS=60 :are supported by this server
+:leela.entropynet.net 005 SubnetBot MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=EntropyNet NICKLEN=32 OPERLOG OVERRIDE PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STATUSMSG=~&@%+ TOPICLEN=308 :are supported by this server
+:leela.entropynet.net 005 SubnetBot UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+:leela.entropynet.net 042 SubnetBot 9Z2AAAMOK :your unique ID
+:leela.entropynet.net 375 SubnetBot :leela.entropynet.net message of the day
+:leela.entropynet.net 372 SubnetBot :- ### ###                                               ##  ## ### ###          
+:leela.entropynet.net 372 SubnetBot :-  ##  ## ##   ## ###### #####    ####   ###### ##   ## ###  #  ##  ##  ######  
+:leela.entropynet.net 372 SubnetBot :-  ##     ###  ##   ##  ##   ##  ##  ## ##   ## ##   ##  ### #  ##        ##    
+:leela.entropynet.net 372 SubnetBot :-  ## ##  #### ##   ##  ##   ## ##   ## ##  ##  ##   ## # ####  ## ##     ##    
+:leela.entropynet.net 372 SubnetBot :-  ##     ## ####   ##  ## ###  ##   ## ## ##    # #### #  ###  ##        ##    
+:leela.entropynet.net 372 SubnetBot :-  ##  ## ##  ###   ##  ##  ##  ##   ## ####         ## #   ##  ##  ##    ##    
+:leela.entropynet.net 372 SubnetBot :- ### ### ##   ##   ##  ##   ## ##   ## ##          ## ###  ## ### ###    ##    
+:leela.entropynet.net 372 SubnetBot :-         ##   ##   ##  ##   ## ## ###  ##       ####                     ##                               
+:leela.entropynet.net 372 SubnetBot :- -----------------------------------------------------------------------------
+:leela.entropynet.net 372 SubnetBot :-                                                                              
+:leela.entropynet.net 372 SubnetBot :- Server: leela.entropynet.net                                           
+:leela.entropynet.net 372 SubnetBot :- Website : http://entropynet.net
+:leela.entropynet.net 372 SubnetBot :-                                                                              
+:leela.entropynet.net 372 SubnetBot :- Rules:                                                                      
+:leela.entropynet.net 372 SubnetBot :- - Follow channel rules (this will not be handled by opers unless in          
+:leela.entropynet.net 372 SubnetBot :- -- #entropynet or another oper controlled channel (#lounge,    
+:leela.entropynet.net 372 SubnetBot :- --  #caffeine-linux)                                                         
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- - Don't hack us, this will result in near definite PermaBans!; don't flood,
+:leela.entropynet.net 372 SubnetBot :- -- repetitively flooding will result in a temporary ban.                      
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- - Don't argue with the opers about these rules, it makes us sad              
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- - Speak the normal language of the channel, if the general population of the 
+:leela.entropynet.net 372 SubnetBot :- -- channel is speaking English, don't break the flow with a random Russian 
+:leela.entropynet.net 372 SubnetBot :- -- conversation-- if you would like to have a non-English channel ple
+ase name
+:leela.entropynet.net 372 SubnetBot :- -- it something like #musicnerds-jp (for Japanese as an example).
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- Some guidelines, these will be enforced:
+:leela.entropynet.net 372 SubnetBot :- - No spamming and/or advertising.
+:leela.entropynet.net 372 SubnetBot :- - No ASCII art, #ascii is excepted.
+:leela.entropynet.net 372 SubnetBot :- - Don't ask for oper privileges, you'll get killed for your troubles.
+:leela.entropynet.net 372 SubnetBot :- - Avoid talking in caps, unless in #rant
+:leela.entropynet.net 372 SubnetBot :- - No links to shock sites, and no child pornography.
+:leela.entropynet.net 372 SubnetBot :- - Use of the nick/user root is not allowed. 
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- REMEMBER: Decisions made by staff are final.
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- Interesting channels:
+:leela.entropynet.net 372 SubnetBot :- - #lounge - General chat channel
+:leela.entropynet.net 372 SubnetBot :- - #EntropyNet - Network channel, for network related business and/or issues
+:leela.entropynet.net 372 SubnetBot :- - #ascii - See rule 2.
+:leela.entropynet.net 372 SubnetBot :- - #anime - talk about anime. Home of Alice the NEET Detective.
+:leela.entropynet.net 372 SubnetBot :- - #gamers - for the gamers
+:leela.entropynet.net 372 SubnetBot :- - #musicnerds - we <3 music
+:leela.entropynet.net 372 SubnetBot :- - #links - if you have a server and want to link with our IRCnet, join this.
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- Bots
+:leela.entropynet.net 372 SubnetBot :- - If you would like to run a bot you must msg an operator first,
+:leela.entropynet.net 372 SubnetBot :- - We will either allow or deny your bot to access the network,
+:leela.entropynet.net 372 SubnetBot :- - if you connect your bot anyway you and your bot will be G:Lined
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- NOTE - You can give yourself +w to see noncritical global notices (and set it to your automodes).
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- Network Administrators ( opers )
+:leela.entropynet.net 372 SubnetBot :- - foxwolfblood
+:leela.entropynet.net 372 SubnetBot :- - cafejunkie
+:leela.entropynet.net 372 SubnetBot :- - staticsafe
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 376 SubnetBot :End of message of the day.
+:leela.entropynet.net 251 SubnetBot :There are 24 users and 23 invisible on 5 servers
+:leela.entropynet.net 252 SubnetBot 17 :operator(s) online
+:leela.entropynet.net 254 SubnetBot 49 :channels formed
+:leela.entropynet.net 255 SubnetBot :I have 20 clients and 4 servers
+:leela.entropynet.net 265 SubnetBot :Current Local Users: 20  Max: 25
+:leela.entropynet.net 266 SubnetBot :Current Global Users: 47  Max: 60
+:leela.entropynet.net 396 SubnetBot net-vm7.rh5.235.64.IP :is now your displayed host
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP MODE SubnetBot +x
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+
+Logging in...
+Login successful!
+:StatServ!stats@entropynet.net PRIVMSG SubnetBot :VERSION
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+:leela.entropynet.net 403 SubnetBot i :Invalid channel name
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP JOIN :#
+:leela.entropynet.net 353 SubnetBot = # :jordanmkasla2009 ~Dan SubnetBot @ChanServ 
+:leela.entropynet.net 366 SubnetBot # :End of /NAMES list.
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+:leela.entropynet.net 403 SubnetBot o :Invalid channel name
+:leela.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :You are now identified for SubnetBot.
+:leela.entropynet.net 900 SubnetBot SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP SubnetBot :You are now logged in as SubnetBot
+:leela.entropynet.net MODE SubnetBot -x
+:leela.entropynet.net 396 SubnetBot subnetbot.subnetsoftware :is now your displayed host
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#compsci
+:leela.entropynet.net 332 SubnetBot #compsci :12Welcome to #compsci | Please speak english here | Keep Conversations civil (no unnecessary vulgarity or trolling) | Have a wonderful day :D
+:leela.entropynet.net 333 SubnetBot #compsci jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware 1335885549
+:leela.entropynet.net 353 SubnetBot = #compsci :~jordanmkasla2009 +Dan subnet_bot_sama +Jacky %TingPing SubnetBot @ChanServ 
+:leela.entropynet.net 366 SubnetBot #compsci :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #compsci +o SubnetBot
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#subnetsoftware
+:leela.entropynet.net 353 SubnetBot = #subnetsoftware :~jordanmkasla2009 subnet_bot_sama SubnetBot @ChanServ 
+:leela.entropynet.net 366 SubnetBot #subnetsoftware :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #subnetsoftware +o SubnetBot
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&stock FB NASDAQ
+
+:leela.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&quit
+
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\SubnetBot\core.py", line 50, in <module>
+    module_results = command_parser(message, connection)
+  File "C:\Users\Admin\Documents\SubnetBot\parse.py", line 93, in command_parser
+    raise SystemExit
+SystemExit
+>>> ================================ RESTART ================================
+>>> 
+Loading Settings...
+Load Successful!
+Registering to server
+:leela.entropynet.net NOTICE Auth :*** Looking up your hostname...
+:leela.entropynet.net NOTICE Auth :*** Could not resolve your hostname: Domain name not found; using your IP address (64.235.110.226) instead.
+
+:leela.entropynet.net NOTICE Auth :Welcome to EntropyNet!
+:leela.entropynet.net 001 SubnetBot :Welcome to the EntropyNet IRC Network SubnetBot!SubnetBot@64.235.110.226
+:leela.entropynet.net 002 SubnetBot :Your host is leela.entropynet.net, running version InspIRCd-2.0
+:leela.entropynet.net 003 SubnetBot :This server was created 12:06:14 Apr  3 2012
+:leela.entropynet.net 004 SubnetBot leela.entropynet.net InspIRCd-2.0 BHIRSWcdhikorswx ABCFIKLMNOQRSTYabcefghijklmnopqrstuvz FILYabefghjkloqv
+:leela.entropynet.net 005 SubnetBot AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=IYbeg,k,FLfjl,ABCKMNOQRSTcimnprstuz CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ABCNOQRSTcmprz FNC INVEX=I KICKLEN=256 MAP MAXBANS=60 :are supported by this server
+:leela.entropynet.net 005 SubnetBot MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=EntropyNet NICKLEN=32 OPERLOG OVERRIDE PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STATUSMSG=~&@%+ TOPICLEN=308 :are supported by this server
+:leela.entropynet.net 005 SubnetBot UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+:leela.entropynet.net 042 SubnetBot 9Z2AAAMOL :your unique ID
+:leela.entropynet.net 375 SubnetBot :leela.entropynet.net message of the day
+:leela.entropynet.net 372 SubnetBot :- ### ###                                               ##  ## ### ###          
+:leela.entropynet.net 372 SubnetBot :-  ##  ## ##   ## ###### #####    ####   ###### ##   ## ###  #  ##  ##  ######  
+:leela.entropynet.net 372 SubnetBot :-  ##     ###  ##   ##  ##   ##  ##  ## ##   ## ##   ##  ### #  ##        ##    
+:leela.entropynet.net 372 SubnetBot :-  ## ##  #### ##   ##  ##   ## ##   ## ##  ##  ##   ## # ####  ## ##     ##    
+:leela.entropynet.net 372 SubnetBot :-  ##     ## ####   ##  ## ###  ##   ## ## ##    # #### #  ###  ##        ##    
+:leela.entropynet.net 372 SubnetBot :-  ##  ## ##  ###   ##  ##  ##  ##   ## ####         ## #   ##  ##  ##    ##    
+:leela.entropynet.net 372 SubnetBot :- ### ### ##   ##   ##  ##   ## ##   ## ##          ## ###  ## ### ###    ##    
+:leela.entropynet.net 372 SubnetBot :-         ##   ##   ##  ##   ## ## ###  ##       ####                     ##                               
+:leela.entropynet.net 372 SubnetBot :- -----------------------------------------------------------------------------
+:leela.entropynet.net 372 SubnetBot :-                                                                              
+:leela.entropynet.net 372 SubnetBot :- Server: leela.entropynet.net                                           
+:leela.entropynet.net 372 SubnetBot :- Website : http://entropynet.net
+:leela.entropynet.net 372 SubnetBot :-                                                                              
+:leela.entropynet.net 372 SubnetBot :- Rules:                                                                      
+:leela.entropynet.net 372 SubnetBot :- - Follow channel rules (this will not be handled by opers unless in          
+:leela.entropynet.net 372 SubnetBot :- -- #entropynet or another oper controlled channel (#lounge,    
+:leela.entropynet.net 372 SubnetBot :- --  #caffeine-linux)                                                         
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- - Don't hack us, this will result in near definite PermaBans!; don't flood,
+:leela.entropynet.net 372 SubnetBot :- -- repetitively flooding will result in a temporary ban.                      
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- - Don't argue with the opers about these rules, it makes us sad              
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- - Speak the normal language of the channel, if the general population of the 
+:leela.entropynet.net 372 SubnetBot :- -- channel is speaking English, don't break the flow with a random Russian 
+:leela.entropynet.net 372 SubnetBot :- -- conversation-- if you would like to have a non-English channel please name
+:leela.entropynet.net 372 SubnetBot :- -- it so
+mething like #musicnerds-jp (for Japanese as an example).
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- Some guidelines, these will be enforced:
+:leela.entropynet.net 372 SubnetBot :- - No spamming and/or advertising.
+:leela.entropynet.net 372 SubnetBot :- - No ASCII art, #ascii is excepted.
+:leela.entropynet.net 372 SubnetBot :- - Don't ask for oper privileges, you'll get killed for your troubles.
+:leela.entropynet.net 372 SubnetBot :- - Avoid talking in caps, unless in #rant
+:leela.entropynet.net 372 SubnetBot :- - No links to shock sites, and no child pornography.
+:leela.entropynet.net 372 SubnetBot :- - Use of the nick/user root is not allowed. 
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- REMEMBER: Decisions made by staff are final.
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- Interesting channels:
+:leela.entropynet.net 372 SubnetBot :- - #lounge - General chat channel
+:leela.entropynet.net 372 SubnetBot :- - #EntropyNet - Network channel, for network related business and/or issues
+:leela.entropynet.net 372 SubnetBot :- - #ascii - See rule 2.
+:leela.entropynet.net 372 SubnetBot :- - #anime - talk about anime. Home of Alice the NEET Detective.
+:leela.entropynet.net 372 SubnetBot :- - #gamers - for the gamers
+:leela.entropynet.net 372 SubnetBot :- - #musicnerds - we <3 music
+:leela.entropynet.net 372 SubnetBot :- - #links - if you have a server and want to link with our IRCnet, join this.
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- Bots
+:leela.entropynet.net 372 SubnetBot :- - If you would like to run a bot you must msg an operator first,
+:leela.entropynet.net 372 SubnetBot :- - We will either allow or deny your bot to access the network,
+:leela.entropynet.net 372 SubnetBot :- - if you connect your bot anyway you and your bot will be G:Lined
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- NOTE - You can give yourself +w to see noncritical global notices (and set it to your automodes).
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- Network Administrators ( opers )
+:leela.entropynet.net 372 SubnetBot :- - foxwolfblood
+:leela.entropynet.net 372 SubnetBot :- - cafejunkie
+:leela.entropynet.net 372 SubnetBot :- - staticsafe
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 372 SubnetBot :- 
+:leela.entropynet.net 376 SubnetBot :End of message of the day.
+:leela.entropynet.net 251 SubnetBot :There are 24 users and 23 invisible on 5 servers
+:leela.entropynet.net 252 SubnetBot 17 :operator(s) online
+:leela.entropynet.net 254 SubnetBot 49 :channels formed
+:leela.entropynet.net 255 SubnetBot :I have 20 clients and 4 servers
+:leela.entropynet.net 265 SubnetBot :Current Local Users: 20  Max: 25
+:leela.entropynet.net 266 SubnetBot :Current Global Users: 47  Max: 60
+:leela.entropynet.net 396 SubnetBot net-vm7.rh5.235.64.IP :is now your displayed host
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP MODE SubnetBot +x
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+
+Logging in...
+Login successful!
+:StatServ!stats@entropynet.net PRIVMSG SubnetBot :VERSION
+
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP JOIN :#
+:leela.entropynet.net 353 SubnetBot = # :jordanmkasla2009 ~Dan SubnetBot @ChanServ 
+:leela.entropynet.net 366 SubnetBot # :End of /NAMES list.
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :You are now identified for SubnetBot.
+:leela.entropynet.net 900 SubnetBot SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP SubnetBot :You are now logged in as SubnetBot
+:leela.entropynet.net MODE SubnetBot -x
+:leela.entropynet.net 396 SubnetBot subnetbot.subnetsoftware :is now your displayed host
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#compsci
+:leela.entropynet.net 332 SubnetBot #compsci :12Welcome to #compsci | Please speak english here | Keep Conversations civil (no unnecessary vulgarity or trolling) | Have a wonderful day :D
+:leela.entropynet.net 333 SubnetBot #compsci jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware 1335885549
+:leela.entropynet.net 353 SubnetBot = #compsci :~jordanmkasla2009 +Dan subnet_bot_sama +Jacky %TingPing SubnetBot @ChanServ 
+:leela.entropynet.net 366 SubnetBot #compsci :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #compsci +o SubnetBot
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#subnetsoftware
+:leela.entropynet.net 353 SubnetBot = #subnetsoftware :~jordanmkasla2009 subnet_bot_sama SubnetBot @ChanServ 
+:leela.entropynet.net 366 SubnetBot #subnetsoftware :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #subnetsoftware +o SubnetBot
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&stock FB NASDAQ
+
+:leela.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:leela.entropynet.net 403 SubnetBot i :Invalid channel name
+
+
+>>> ================================ RESTART ================================
+>>> 
+Loading Settings...
+Load Successful!
+Registering to server
+:kif.entropynet.net NOTICE Auth :*** Looking up your hostname...
+
+:kif.entropynet.net NOTICE Auth :*** Could not resolve your hostname: Domain name not found; using your IP address (64.235.110.226) instead.
+
+:kif.entropynet.net 451 JOIN :You have not registered
+:kif.entropynet.net NOTICE Auth :Welcome to EntropyNet!
+:kif.entropynet.net 001 SubnetBot :Welcome to the EntropyNet IRC Network SubnetBot!SubnetBot@64.235.110.226
+:kif.entropynet.net 002 SubnetBot :Your host is kif.entropynet.net, running version InspIRCd-2.0
+:kif.entropynet.net 003 SubnetBot :This server was created 17:01:51 Apr  3 2012
+:kif.entropynet.net 004 SubnetBot kif.entropynet.net InspIRCd-2.0 BHIRSWcdhikorswx ABCFIKLMNOQRSTYabcefghijklmnopqrstuvz FILYabefghjkloqv
+:kif.entropynet.net 005 SubnetBot AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=IYbeg,k,FLfjl,ABCKMNOQRSTcimnprstuz CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ABCNOQRSTcmprz FNC INVEX=I KICKLEN=256 MAP MAXBANS=60 :are supported by this server
+:kif.entropynet.net 005 SubnetBot MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=EntropyNet NICKLEN=32 OPERLOG OVERRIDE PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STATUSMSG=~&@%+ TOPICLEN=308 :are supported by this server
+:kif.entropynet.net 005 SubnetBot UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+:kif.entropynet.net 042 SubnetBot 4SZAAAFQN :your unique ID
+:kif.entropynet.net 375 SubnetBot :kif.entropynet.net message of the day
+:kif.entropynet.net 372 SubnetBot :- ### ###                                               ##  ## ### ###          
+:kif.entropynet.net 372 SubnetBot :-  ##  ## ##   ## ###### #####    ####   ###### ##   ## ###  #  ##  ##  ######  
+:kif.entropynet.net 372 SubnetBot :-  ##     ###  ##   ##  ##   ##  ##  ## ##   ## ##   ##  ### #  ##        ##    
+:kif.entropynet.net 372 SubnetBot :-  ## ##  #### ##   ##  ##   ## ##   ## ##  ##  ##   ## # ####  ## ##     ##    
+:kif.entropynet.net 372 SubnetBot :-  ##     ## ####   ##  ## ###  ##   ## ## ##    # #### #  ###  ##        ##    
+:kif.entropynet.net 372 SubnetBot :-  ##  ## ##  ###   ##  ##  ##  ##   ## ####         ## #   ##  ##  ##    ##    
+:kif.entropynet.net 372 SubnetBot :- ### ### ##   ##   ##  ##   ## ##   ## ##          ## ###  ## ### ###    ##    
+:kif.entropynet.net 372 SubnetBot :-         ##   ##   ##  ##   ## ## ###  ##       ####                     ##                               
+:kif.entropynet.net 372 SubnetBot :- -----------------------------------------------------------------------------
+:kif.entropynet.net 372 SubnetBot :-                                                                              
+:kif.entropynet.net 372 SubnetBot :- Server: kif.entropynet.net                                           
+:kif.entropynet.net 372 SubnetBot :- Website : http://entropynet.net
+:kif.entropynet.net 372 SubnetBot :-                                                                              
+:kif.entropynet.net 372 SubnetBot :- Rules:                                                                      
+:kif.entropynet.net 372 SubnetBot :- - Follow channel rules (this will not be handled by opers unless in          
+:kif.entropynet.net 372 SubnetBot :- -- #entropynet or another oper controlled channel (#lounge,    
+:kif.entropynet.net 372 SubnetBot :- --  #caffeine-linux)                                                         
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- - Don't hack us, this will result in near definite PermaBans!; don't flood,
+:kif.entropynet.net 372 SubnetBot :- -- repetitively flooding will result in a temporary ban.                      
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- - Don't argue with the opers about these rules, it makes us sad              
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- - Speak the normal language of the channel, if the general population of the 
+:kif.entropynet.net 372 SubnetBot :- -- channel is speaking English, don't break the flow with a random Russian 
+:kif.entropynet.net 372 SubnetBot :- -- conversation-- if you would like to have a non-English channel please name
+:kif.entropynet.net 372 SubnetBot :- -- it something like #musicnerds-jp
+ (for Japanese as an example).
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Some guidelines, these will be enforced:
+:kif.entropynet.net 372 SubnetBot :- - No spamming and/or advertising.
+:kif.entropynet.net 372 SubnetBot :- - No ASCII art, #ascii is excepted.
+:kif.entropynet.net 372 SubnetBot :- - Don't ask for oper privileges, you'll get killed for your troubles.
+:kif.entropynet.net 372 SubnetBot :- - Avoid talking in caps, unless in #rant
+:kif.entropynet.net 372 SubnetBot :- - No links to shock sites, and no child pornography.
+:kif.entropynet.net 372 SubnetBot :- - Use of the nick/user root is not allowed. 
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- REMEMBER: Decisions made by staff are final.
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Interesting channels:
+:kif.entropynet.net 372 SubnetBot :- - #lounge - General chat channel
+:kif.entropynet.net 372 SubnetBot :- - #EntropyNet - Network channel, for network related business and/or issues
+:kif.entropynet.net 372 SubnetBot :- - #ascii - See rule 2.
+:kif.entropynet.net 372 SubnetBot :- - #anime - talk about anime. Home of Alice the NEET Detective.
+:kif.entropynet.net 372 SubnetBot :- - #gamers - for the gamers
+:kif.entropynet.net 372 SubnetBot :- - #musicnerds - we <3 music
+:kif.entropynet.net 372 SubnetBot :- - #links - if you have a server and want to link with our IRCnet, join this.
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Bots
+:kif.entropynet.net 372 SubnetBot :- - If you would like to run a bot you must msg an operator first,
+:kif.entropynet.net 372 SubnetBot :- - We will either allow or deny your bot to access the network,
+:kif.entropynet.net 372 SubnetBot :- - if you connect your bot anyway you and your bot will be G:Lined
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- NOTE - You can give yourself +w to see noncritical global notices (and set it to your automodes).
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Network Administrators ( opers )
+:kif.entropynet.net 372 SubnetBot :- - foxwolfblood
+:kif.entropynet.net 372 SubnetBot :- - cafejunkie
+:kif.entropynet.net 372 SubnetBot :- - staticsafe
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 376 SubnetBot :End of message of the day.
+:kif.entropynet.net 251 SubnetBot :There are 24 users and 23 invisible on 5 servers
+:kif.entropynet.net 252 SubnetBot 17 :operator(s) online
+:kif.entropynet.net 254 SubnetBot 49 :channels formed
+:kif.entropynet.net 255 SubnetBot :I have 12 clients and 1 servers
+:kif.entropynet.net 265 SubnetBot :Current Local Users: 12  Max: 17
+:kif.entropynet.net 266 SubnetBot :Current Global Users: 47  Max: 60
+:kif.entropynet.net 396 SubnetBot net-vm7.rh5.235.64.IP :is now your displayed host
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP MODE SubnetBot +x
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+
+Logging in...
+Login successful!
+:StatServ!stats@entropynet.net PRIVMSG SubnetBot :VERSION
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP JOIN :#
+:kif.entropynet.net 353 SubnetBot = # :~Dan @ChanServ jordanmkasla2009 SubnetBot 
+:kif.entropynet.net 366 SubnetBot # :End of /NAMES list.
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :You are now identified for SubnetBot.
+:kif.entropynet.net 900 SubnetBot SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP SubnetBot :You are now logged in as SubnetBot
+:kif.entropynet.net MODE SubnetBot -x
+:kif.entropynet.net 396 SubnetBot subnetbot.subnetsoftware :is now your displayed host
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#compsci
+:kif.entropynet.net 332 SubnetBot #compsci :12Welcome to #compsci | Please speak english here | Keep Conversations civil (no unnecessary vulgarity or trolling) | Have a wonderful day :D
+:kif.entropynet.net 333 SubnetBot #compsci jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware 1335885549
+:kif.entropynet.net 353 SubnetBot = #compsci :+Dan +Jacky %TingPing subnet_bot_sama @ChanServ ~jordanmkasla2009 SubnetBot 
+:kif.entropynet.net 366 SubnetBot #compsci :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #compsci +o SubnetBot
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#subnetsoftware
+:kif.entropynet.net 353 SubnetBot = #subnetsoftware :subnet_bot_sama @ChanServ ~jordanmkasla2009 SubnetBot 
+:kif.entropynet.net 366 SubnetBot #subnetsoftware :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #subnetsoftware +o SubnetBot
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&stock FB NASDAQ
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&quit
+
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\SubnetBot\core.py", line 50, in <module>
+    module_results = command_parser(message, connection)
+  File "C:\Users\Admin\Documents\SubnetBot\parse.py", line 93, in command_parser
+    raise SystemExit
+SystemExit
+>>> ================================ RESTART ================================
+>>> 
+Loading Settings...
+Load Successful!
+Registering to server
+:bender.entropynet.net NOTICE Auth :*** Looking up your hostname...
+
+:bender.entropynet.net NOTICE Auth :*** Could not resolve your hostname: Domain name not found; using your IP address (64.235.110.226) instead.
+
+:bender.entropynet.net 451 JOIN :You have not registered
+
+:bender.entropynet.net 451 JOIN :You have not registered
+
+:bender.entropynet.net 451 JOIN :You have not registered
+
+:bender.entropynet.net 451 JOIN :You have not registered
+
+:bender.entropynet.net 451 JOIN :You have not registered
+
+:bender.entropynet.net 451 JOIN :You have not registered
+:bender.entropynet.net NOTICE Auth :Welcome to EntropyNet!
+:bender.entropynet.net 001 SubnetBot :Welcome to the EntropyNet IRC Network SubnetBot!SubnetBot@64.235.110.226
+:bender.entropynet.net 002 SubnetBot :Your host is bender.entropynet.net, running version InspIRCd-2.0
+:bender.entropynet.net 003 SubnetBot :This server was created 12:15:23 Apr  3 2012
+:bender.entropynet.net 004 SubnetBot bender.entropynet.net InspIRCd-2.0 BHIRSWcdhikorswx ABCFIKLMNOQRSTYabcefghijklmnopqrstuvz FILYabefghjkloqv
+:bender.entropynet.net 005 SubnetBot AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=IYbeg,k,FLfjl,ABCKMNOQRSTcimnprstuz CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ABCNOQRSTcmprz FNC INVEX=I KICKLEN=256 MAP MAXBANS=60 :are supported by this server
+:bender.entropynet.net 005 SubnetBot MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=EntropyNet NICKLEN=32 OPERLOG OVERRIDE PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STATUSMSG=~&@%+ TOPICLEN=308 :are supported by this server
+:bender.entropynet.net 005 SubnetBot UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+:bender.entropynet.net 042 SubnetBot 934AAAAD4 :your unique ID
+:bender.entropynet.net 375 SubnetBot :bender.entropynet.net message of the day
+:bender.entropynet.net 372 SubnetBot :- ### ###                                               ##  ## ### ###          
+:bender.entropynet.net 372 SubnetBot :-  ##  ## ##   ## ###### #####    ####   ###### ##   ## ###  #  ##  ##  ######  
+:bender.entropynet.net 372 SubnetBot :-  ##     ###  ##   ##  ##   ##  ##  ## ##   ## ##   ##  ### #  ##        ##    
+:bender.entropynet.net 372 SubnetBot :-  ## ##  #### ##   ##  ##   ## ##   ## ##  ##  ##   ## # ####  ## ##     ##    
+:bender.entropynet.net 372 SubnetBot :-  ##     ## ####   ##  ## ###  ##   ## ## ##    # #### #  ###  ##        ##    
+:bender.entropynet.net 372 SubnetBot :-  ##  ## ##  ###   ##  ##  ##  ##   ## ####         ## #   ##  ##  ##    ##    
+:bender.entropynet.net 372 SubnetBot :- ### ### ##   ##   ##  ##   ## ##   ## ##          ## ###  ## ### ###    ##    
+:bender.entropynet.net 372 SubnetBot :-         ##   ##   ##  ##   ## ## ###  ##       ####                     ##                               
+:bender.entropynet.net 372 SubnetBot :- -----------------------------------------------------------------------------
+:bender.entropynet.net 372 SubnetBot :-                                                                              
+:bender.entropynet.net 372 SubnetBot :- Server: bender.entropynet.net                                           
+:bender.entropynet.net 372 SubnetBot :- Website : http://entropynet.net
+:bender.entropynet.net 372 SubnetBot :-                                                                              
+:bender.entropynet.net 372 SubnetBot :- Rules:                                                                      
+:bender.entropynet.net 372 SubnetBot :- - Follow channel rules (this will not be handled by opers unless in          
+:bender.entropynet.net 372 SubnetBot :- -- #entropynet or another oper controlled channel (#lounge,    
+:bender.entropynet.net 372 SubnetBot :- --  #caffeine-linux)                                                         
+:bender.entropynet.net 372 SubnetBot :- 
+:bender.entropynet.net 372 SubnetBot :- - Don't hack us, this will result in near definite PermaBans!; don't flood,
+:bender.entropynet.net 372 SubnetBot :- -- repetitively flooding will result in a temporary ban.                      
+:bender.entropynet.net 372 SubnetBot :- 
+:bender.entropynet.net 372 SubnetBot :- - Don't argue with the opers about these rules, it makes us sad              
+:bender.entropynet.net 372 SubnetBot :- 
+:bender.entropynet.net 372 SubnetBot :- - Speak the normal language of the channel, if the general population of the 
+:bender.entropynet.net 372 SubnetBot :- -- channel is speaking English, don't break the flow with a random Russian 
+:bender.entropynet.net 372 SubnetBot :- -- conversation-- if you wou
+ld like to have a non-English channel please name
+:bender.entropynet.net 372 SubnetBot :- -- it something like #musicnerds-jp (for Japanese as an example).
+:bender.entropynet.net 372 SubnetBot :- 
+:bender.entropynet.net 372 SubnetBot :- 
+:bender.entropynet.net 372 SubnetBot :- Some guidelines, these will be enforced:
+:bender.entropynet.net 372 SubnetBot :- - No spamming and/or advertising.
+:bender.entropynet.net 372 SubnetBot :- - No ASCII art, #ascii is excepted.
+:bender.entropynet.net 372 SubnetBot :- - Don't ask for oper privileges, you'll get killed for your troubles.
+:bender.entropynet.net 372 SubnetBot :- - Avoid talking in caps, unless in #rant
+:bender.entropynet.net 372 SubnetBot :- - No links to shock sites, and no child pornography.
+:bender.entropynet.net 372 SubnetBot :- - Use of the nick/user root is not allowed. 
+:bender.entropynet.net 372 SubnetBot :- 
+:bender.entropynet.net 372 SubnetBot :- REMEMBER: Decisions made by staff are final.
+:bender.entropynet.net 372 SubnetBot :- 
+:bender.entropynet.net 372 SubnetBot :- Interesting channels:
+:bender.entropynet.net 372 SubnetBot :- - #lounge - General chat channel
+:bender.entropynet.net 372 SubnetBot :- - #EntropyNet - Network channel, for network related business and/or issues
+:bender.entropynet.net 372 SubnetBot :- - #ascii - See rule 2.
+:bender.entropynet.net 372 SubnetBot :- - #anime - talk about anime. Home of Alice the NEET Detective.
+:bender.entropynet.net 372 SubnetBot :- - #gamers - for the gamers
+:bender.entropynet.net 372 SubnetBot :- - #musicnerds - we <3 music
+:bender.entropynet.net 372 SubnetBot :- - #links - if you have a server and want to link with our IRCnet, join this.
+:bender.entropynet.net 372 SubnetBot :- 
+:bender.entropynet.net 372 SubnetBot :- Bots
+:bender.entropynet.net 372 SubnetBot :- - If you would like to run a bot you must msg an operator first,
+:bender.entropynet.net 372 SubnetBot :- - We will either allow or deny your bot to access the network,
+:bender.entropynet.net 372 SubnetBot :- - if you connect your bot anyway you and your bot will be G:Lined
+:bender.entropynet.net 372 SubnetBot :- 
+:bender.entropynet.net 372 SubnetBot :- NOTE - You can give yourself +w to see noncritical global notices (and set it to your automodes).
+:bender.entropynet.net 372 SubnetBot :- 
+:bender.entropynet.net 372 SubnetBot :- Network Administrators ( opers )
+:bender.entropynet.net 372 SubnetBot :- - foxwolfblood
+:bender.entropynet.net 372 SubnetBot :- - cafejunkie
+:bender.entropynet.net 372 SubnetBot :- - staticsafe
+:bender.entropynet.net 372 SubnetBot :- 
+:bender.entropynet.net 372 SubnetBot :- 
+:bender.entropynet.net 376 SubnetBot :End of message of the day.
+:bender.entropynet.net 251 SubnetBot :There are 24 users and 23 invisible on 5 servers
+:bender.entropynet.net 252 SubnetBot 17 :operator(s) online
+:bender.entropynet.net 254 SubnetBot 49 :channels formed
+:bender.entropynet.net 255 SubnetBot :I have 4 clients and 1 servers
+:bender.entropynet.net 265 SubnetBot :Current Local Users: 4  Max: 4
+:bender.entropynet.net 266 SubnetBot :Current Global Users: 47  Max: 49
+:bender.entropynet.net 396 SubnetBot net-vm7.rh5.235.64.IP :is now your displayed host
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP MODE SubnetBot +x
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+
+Logging in...
+Login successful!
+:bender.entropynet.net 403 SubnetBot c :Invalid channel name
+:bender.entropynet.net 403 SubnetBot i :Invalid channel name
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP JOIN :#
+:bender.entropynet.net 353 SubnetBot = # :jordanmkasla2009 @ChanServ ~Dan SubnetBot 
+:bender.entropynet.net 366 SubnetBot # :End of /NAMES list.
+:bender.entropynet.net 403 SubnetBot c :Invalid channel name
+:bender.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:StatServ!stats@entropynet.net PRIVMSG SubnetBot :VERSION
+
+:bender.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:bender.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:bender.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:bender.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:bender.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:bender.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:bender.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:bender.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:bender.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:bender.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:bender.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:bender.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :You are now identified for SubnetBot.
+:bender.entropynet.net 900 SubnetBot SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP SubnetBot :You are now logged in as SubnetBot
+:bender.entropynet.net MODE SubnetBot -x
+:bender.entropynet.net 396 SubnetBot subnetbot.subnetsoftware :is now your displayed host
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#compsci
+:bender.entropynet.net 332 SubnetBot #compsci :12Welcome to #compsci | Please speak english here | Keep Conversations civil (no unnecessary vulgarity or trolling) | Have a wonderful day :D
+:bender.entropynet.net 333 SubnetBot #compsci jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware 1335885549
+:bender.entropynet.net 353 SubnetBot = #compsci :~jordanmkasla2009 @ChanServ +Jacky %TingPing +Dan subnet_bot_sama SubnetBot 
+:bender.entropynet.net 366 SubnetBot #compsci :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #compsci +o SubnetBot
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#subnetsoftware
+:bender.entropynet.net 353 SubnetBot = #subnetsoftware :~jordanmkasla2009 @ChanServ subnet_bot_sama SubnetBot 
+:bender.entropynet.net 366 SubnetBot #subnetsoftware :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #subnetsoftware +o SubnetBot
+
+:bender.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&stock FB NASDAQ
+
+:bender.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:bender.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:bender.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:bender.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:bender.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:bender.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&quit
+
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\SubnetBot\core.py", line 50, in <module>
+    module_results = command_parser(message, connection)
+  File "C:\Users\Admin\Documents\SubnetBot\parse.py", line 93, in command_parser
+    raise SystemExit
+SystemExit
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\SubnetBot\core.py", line 4, in <module>
+    from parse import *
+  File "C:\Users\Admin\Documents\SubnetBot\parse.py", line 7, in <module>
+    from modules.stock import GoogleFinanceAPI as Stock
+  File "C:\Users\Admin\Documents\SubnetBot\modules\stock.py", line 81
+    except IOError, err_msg:
+                           ^
+IndentationError: unindent does not match any outer indentation level
+>>> ================================ RESTART ================================
+>>> 
+Loading Settings...
+Load Successful!
+Registering to server
+:kif.entropynet.net NOTICE Auth :*** Looking up your hostname...
+
+:kif.entropynet.net NOTICE Auth :*** Could not resolve your hostname: Domain name not found; using your IP address (64.235.110.226) instead.
+
+:kif.entropynet.net 451 JOIN :You have not registered
+:kif.entropynet.net NOTICE Auth :Welcome to EntropyNet!
+:kif.entropynet.net 001 SubnetBot :Welcome to the EntropyNet IRC Network SubnetBot!SubnetBot@64.235.110.226
+:kif.entropynet.net 002 SubnetBot :Your host is kif.entropynet.net, running version InspIRCd-2.0
+:kif.entropynet.net 003 SubnetBot :This server was created 17:01:51 Apr  3 2012
+:kif.entropynet.net 004 SubnetBot kif.entropynet.net InspIRCd-2.0 BHIRSWcdhikorswx ABCFIKLMNOQRSTYabcefghijklmnopqrstuvz FILYabefghjkloqv
+:kif.entropynet.net 005 SubnetBot AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=IYbeg,k,FLfjl,ABCKMNOQRSTcimnprstuz CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,ABCNOQRSTcmprz FNC INVEX=I KICKLEN=256 MAP MAXBANS=60 :are supported by this server
+:kif.entropynet.net 005 SubnetBot MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=EntropyNet NICKLEN=32 OPERLOG OVERRIDE PREFIX=(qaohv)~&@%+ SSL=[::]:6697 STATUSMSG=~&@%+ TOPICLEN=308 :are supported by this server
+:kif.entropynet.net 005 SubnetBot UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES WATCH=32 :are supported by this server
+:kif.entropynet.net 042 SubnetBot 4SZAAAFQP :your unique ID
+:kif.entropynet.net 375 SubnetBot :kif.entropynet.net message of the day
+:kif.entropynet.net 372 SubnetBot :- ### ###                                               ##  ## ### ###          
+:kif.entropynet.net 372 SubnetBot :-  ##  ## ##   ## ###### #####    ####   ###### ##   ## ###  #  ##  ##  ######  
+:kif.entropynet.net 372 SubnetBot :-  ##     ###  ##   ##  ##   ##  ##  ## ##   ## ##   ##  ### #  ##        ##    
+:kif.entropynet.net 372 SubnetBot :-  ## ##  #### ##   ##  ##   ## ##   ## ##  ##  ##   ## # ####  ## ##     ##    
+:kif.entropynet.net 372 SubnetBot :-  ##     ## ####   ##  ## ###  ##   ## ## ##    # #### #  ###  ##        ##    
+:kif.entropynet.net 372 SubnetBot :-  ##  ## ##  ###   ##  ##  ##  ##   ## ####         ## #   ##  ##  ##    ##    
+:kif.entropynet.net 372 SubnetBot :- ### ### ##   ##   ##  ##   ## ##   ## ##          ## ###  ## ### ###    ##    
+:kif.entropynet.net 372 SubnetBot :-         ##   ##   ##  ##   ## ## ###  ##       ####                     ##                               
+:kif.entropynet.net 372 SubnetBot :- -----------------------------------------------------------------------------
+:kif.entropynet.net 372 SubnetBot :-                                                                              
+:kif.entropynet.net 372 SubnetBot :- Server: kif.entropynet.net                                           
+:kif.entropynet.net 372 SubnetBot :- Website : http://entropynet.net
+:kif.entropynet.net 372 SubnetBot :-                                                                              
+:kif.entropynet.net 372 SubnetBot :- Rules:                                                                      
+:kif.entropynet.net 372 SubnetBot :- - Follow channel rules (this will not be handled by opers unless in          
+:kif.entropynet.net 372 SubnetBot :- -- #entropynet or another oper controlled channel (#lounge,    
+:kif.entropynet.net 372 SubnetBot :- --  #caffeine-linux)                                                         
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- - Don't hack us, this will result in near definite PermaBans!; don't flood,
+:kif.entropynet.net 372 SubnetBot :- -- repetitively flooding will result in a temporary ban.                      
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- - Don't argue with the opers about these rules, it makes us sad              
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- - Speak the normal language of the channel, if the general population of the 
+:kif.entropynet.net 372 SubnetBot :- -- channel is speaking English, don't break the flow with a random Russian 
+:kif.entropynet.net 372 SubnetBot :- -- conversation-- if you would like to have a non-English channel please name
+:kif.entropynet.net 372 SubnetBot :- -- it something like #musicnerds-jp
+ (for Japanese as an example).
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Some guidelines, these will be enforced:
+:kif.entropynet.net 372 SubnetBot :- - No spamming and/or advertising.
+:kif.entropynet.net 372 SubnetBot :- - No ASCII art, #ascii is excepted.
+:kif.entropynet.net 372 SubnetBot :- - Don't ask for oper privileges, you'll get killed for your troubles.
+:kif.entropynet.net 372 SubnetBot :- - Avoid talking in caps, unless in #rant
+:kif.entropynet.net 372 SubnetBot :- - No links to shock sites, and no child pornography.
+:kif.entropynet.net 372 SubnetBot :- - Use of the nick/user root is not allowed. 
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- REMEMBER: Decisions made by staff are final.
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Interesting channels:
+:kif.entropynet.net 372 SubnetBot :- - #lounge - General chat channel
+:kif.entropynet.net 372 SubnetBot :- - #EntropyNet - Network channel, for network related business and/or issues
+:kif.entropynet.net 372 SubnetBot :- - #ascii - See rule 2.
+:kif.entropynet.net 372 SubnetBot :- - #anime - talk about anime. Home of Alice the NEET Detective.
+:kif.entropynet.net 372 SubnetBot :- - #gamers - for the gamers
+:kif.entropynet.net 372 SubnetBot :- - #musicnerds - we <3 music
+:kif.entropynet.net 372 SubnetBot :- - #links - if you have a server and want to link with our IRCnet, join this.
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Bots
+:kif.entropynet.net 372 SubnetBot :- - If you would like to run a bot you must msg an operator first,
+:kif.entropynet.net 372 SubnetBot :- - We will either allow or deny your bot to access the network,
+:kif.entropynet.net 372 SubnetBot :- - if you connect your bot anyway you and your bot will be G:Lined
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- NOTE - You can give yourself +w to see noncritical global notices (and set it to your automodes).
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- Network Administrators ( opers )
+:kif.entropynet.net 372 SubnetBot :- - foxwolfblood
+:kif.entropynet.net 372 SubnetBot :- - cafejunkie
+:kif.entropynet.net 372 SubnetBot :- - staticsafe
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 372 SubnetBot :- 
+:kif.entropynet.net 376 SubnetBot :End of message of the day.
+:kif.entropynet.net 251 SubnetBot :There are 24 users and 23 invisible on 5 servers
+:kif.entropynet.net 252 SubnetBot 17 :operator(s) online
+:kif.entropynet.net 254 SubnetBot 49 :channels formed
+:kif.entropynet.net 255 SubnetBot :I have 12 clients and 1 servers
+:kif.entropynet.net 265 SubnetBot :Current Local Users: 12  Max: 17
+:kif.entropynet.net 266 SubnetBot :Current Global Users: 47  Max: 60
+:kif.entropynet.net 396 SubnetBot net-vm7.rh5.235.64.IP :is now your displayed host
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP MODE SubnetBot +x
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+
+Logging in...
+Login successful!
+:StatServ!stats@entropynet.net PRIVMSG SubnetBot :VERSION
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP JOIN :#
+:kif.entropynet.net 353 SubnetBot = # :~Dan @ChanServ jordanmkasla2009 SubnetBot 
+:kif.entropynet.net 366 SubnetBot # :End of /NAMES list.
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+
+:NickServ!NickServ@services.entropynet.net NOTICE SubnetBot :You are now identified for SubnetBot.
+:kif.entropynet.net 900 SubnetBot SubnetBot!SubnetBot@net-vm7.rh5.235.64.IP SubnetBot :You are now logged in as SubnetBot
+:kif.entropynet.net MODE SubnetBot -x
+:kif.entropynet.net 396 SubnetBot subnetbot.subnetsoftware :is now your displayed host
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#compsci
+:kif.entropynet.net 332 SubnetBot #compsci :12Welcome to #compsci | Please speak english here | Keep Conversations civil (no unnecessary vulgarity or trolling) | Have a wonderful day :D
+:kif.entropynet.net 333 SubnetBot #compsci jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware 1335885549
+:kif.entropynet.net 353 SubnetBot = #compsci :+Dan +Jacky %TingPing subnet_bot_sama @ChanServ ~jordanmkasla2009 SubnetBot 
+:kif.entropynet.net 366 SubnetBot #compsci :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #compsci +o SubnetBot
+
+:SubnetBot!SubnetBot@subnetbot.subnetsoftware JOIN :#subnetsoftware
+:kif.entropynet.net 353 SubnetBot = #subnetsoftware :subnet_bot_sama @ChanServ ~jordanmkasla2009 SubnetBot 
+:kif.entropynet.net 366 SubnetBot #subnetsoftware :End of /NAMES list.
+
+:ChanServ!ChanServ@services.entropynet.net MODE #subnetsoftware +o SubnetBot
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot o :Invalid channel name
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&stock FB NASDAQ
+
+:kif.entropynet.net 403 SubnetBot m :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot p :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot s :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot c :Invalid channel name
+
+:kif.entropynet.net 403 SubnetBot i :Invalid channel name
+
+PING :kif.entropynet.net
+
+:jordanmkasla2009!jordanmkasla2@ceo.subnetsoftware PRIVMSG #compsci :&quit
+
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\SubnetBot\core.py", line 50, in <module>
+    module_results = command_parser(message, connection)
+  File "C:\Users\Admin\Documents\SubnetBot\parse.py", line 93, in command_parser
+    raise SystemExit
+SystemExit
+>>> 
