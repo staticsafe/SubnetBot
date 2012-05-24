@@ -13,10 +13,12 @@ class GoogleFinanceAPI:
         with open("stockdata.json", 'wb') as f:
             f.write(content[3:])
             f.close()
-            
+
+    def parse():
         obj = None
         with open("stockdata.json", 'rb') as f:
-            obj = str(json.load(f, 'iso-8859-1')).split('u')
+            obj = str(json.load(f)).split('u')
+            f.close()
 
         obj.pop(0)
         for s in obj:
@@ -29,18 +31,11 @@ class GoogleFinanceAPI:
             elif temp.endswith("'}"):
                 temp = temp.rstrip("'}")
             obj[obj.index(s)] = temp
+            temp = None
 
         NASDAQ = None
-        #NYSE = None
-        #TSE = None
-
-        with open('NASDAQ.json', 'rb') as f:
-            print "..."
-            try:
-               # NASDAQ = json.load(f, encoding='utf-8')
-                print "if i reach here it worked"
-            except err_msg:
-              print err_msg
+        NYSE = None
+        TSE = None
 
         Change = None
         ChangePercent = None
@@ -68,16 +63,43 @@ class GoogleFinanceAPI:
             elif s == 'l':
                 CurrentPrice = obj[obj.index(s)+1]
                 print "CurrentPrice found: " + CurrentPrice
-        #if (Exchange == 'NASDAQ'):
-           # print StockName
-           # temp = NASDAQ[StockName]
-       #elif (Exchange == 'NYSE'):
-            #temp = NYSE[StockName]
+
+        returnval = ''
+        if (Exchange == 'NASDAQ'):
+             print StockName
+             try:
+                 with open('./NASDAQ.txt', 'rb') as f:
+                     for line in f:
+                         print line
+                         temp = line.split()
+                         if temp[0] == StockName:
+                             for s in temp:
+                                 if s == temp[0]:
+                                     continue
+                                 else:
+                                     returnval += s
+             except IOError, err_msg:
+                print err_msg
+        elif (Exchange == 'NYSE'):
+            print StockName
+            with open('NYSE.txt', 'rb') as f:
+                 for line in f:
+                     temp = line.split()
+                     if temp[0] == StockName:
+                         for s in temp:
+                             if s == temp[0]:
+                                 continue
+                             else:
+                                 returnval += s
         else:
-            temp = ''
+            returnval = ''
             print 'Unsupported exchange found, should get data for that'
-        if change.beginswith('-'):
-            change = change.append('4')
-        temp += '(' + Exchange + ':' + StockName + ')@' + CurrentPrice + ' ' + Change + "(" + ChangePercent + "%) via Google Finance. Current as of " + DateTime
-        print temp
-        return temp
+                    
+        if Change.startswith('-'):
+            Change_ = '4' + '-' + '1' + Change.lstrip('-') + '(' + ChangePercent + '%)'
+        else:
+            Change_ = '9' + '+' + '1' + Change.lstrip('+') + '(' + ChangePercent + '%)'
+                    
+        returnval += '(' + Exchange + ':' + StockName + ')@' + CurrentPrice + ' ' + Change_ + " via Google Finance. Current as of " + DateTime
+        print returnval
+        return returnval

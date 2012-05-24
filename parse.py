@@ -120,7 +120,8 @@ def command_parser(message_object, connection):
         return results
     elif message.msg[0] == '&stock':
         try:
-            results = stock.get(message.msg[1], message.msg[2])
+            stock.get(message.msg[1], message.msg[2])
+            results = stock.parse()
         except:
             results = "an error has occurred while getting data"
         return results
