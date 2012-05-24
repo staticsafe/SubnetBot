@@ -53,4 +53,4 @@ while 1:
             else:
                 pass
         if message.type == "PING":
-            connection.write("PONG {}".format(message.source))
+            connection.write("PONG {0}".format(message.source))

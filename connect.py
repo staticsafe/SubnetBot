@@ -85,12 +85,12 @@ class Connection(object):
     def join_channel(self, channel):
         ''' joins a channel on the server'''
 
-        self.write("JOIN {}".format(channel))
+        self.write("JOIN {0}".format(channel))
 
     def part_channel(self, channel):
         ''' parts a channel on the server '''
 
-        self.write("PART {}".format(channel))
+        self.write("PART {0}".format(channel))
 
     def send_notice(self, target, message):
         ''' used to send notices'''
@@ -102,11 +102,11 @@ class Connection(object):
 
         print "Registering to server"
         self.write("USER {0} {1} {2} {3}".format(self.botnick, self.server, self.servername, self.botnick))
-        self.write("NICK {}".format(self.botnick))
+        self.write("NICK {0}".format(self.botnick))
 
     def identify(self):
         ''' Identifies with nickserv '''
 
         if self.botpass != "":
-            self.write("PRIVMSG NickServ :ID {}".format(self.botpass))
+            self.write("PRIVMSG NickServ :ID {0}".format(self.botpass))
             return True
