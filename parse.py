@@ -46,7 +46,6 @@ def parse(line):
     if parts[0].startswith(':'):
         # Nick!ident@host
         source = parts.pop(0)[1:]
-
     # command (such as PRIVMSG)
     command = parts.pop(0)
 
@@ -56,7 +55,16 @@ def parse(line):
 
     # the actual "message" (such as "Hello" in a PRIVMSG)
     message = ''
-
+    print "--- trace: parse.py line 58 ---\n"
+    print "source: "
+    print source
+    print "\ncommand: "
+    print command
+    print "\nargs: "
+    print args
+    print "\nmessage: "
+    print message
+    print "\n--- end trace: parse.py line 58 ---\n"
     # Loop through the remaining splits and add them to the proper place
     while len(parts) > 0:
         # If we encounter a : we have hit the "message" part
@@ -69,6 +77,9 @@ def parse(line):
             args.append(parts.pop(0))
     #return the message object
     message = message.split(' ')
+    print "--- trace: parse.py line 80 ---\n"
+    print message
+    print "\n--- end trace: parse.py line 80 ---\n"
     return Message(nih_to_user(source), command, args, message)
 
 def nih_to_user(nih):
